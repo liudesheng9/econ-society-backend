@@ -1,0 +1,3288 @@
+{
+    "affiliation": "professor of economics, cambridge university",
+    "citedby": 15637,
+    "container_type": "Author",
+    "email_domain": "@cam.ac.uk",
+    "filled": [
+        "basics",
+        "publications"
+    ],
+    "interests": [
+        "economics",
+        "networks"
+    ],
+    "name": "sanjeev goyal",
+    "organization": 11708991605694184852,
+    "publications": [
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:u5HHmVD_uO8C",
+            "bib": {
+                "citation": "Econometrica 68 (5), 1181-1229, 2000",
+                "pub_year": "2000",
+                "title": "A noncooperative model of network formation"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2548011760067319176",
+            "cites_id": [
+                "2548011760067319176"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2182,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:JVJ6OkSwpHsC",
+            "bib": {
+                "citation": "Princeton University Press, 2012",
+                "pub_year": "2012",
+                "title": "Connections: an introduction to the economics of networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16834514847108729468",
+            "cites_id": [
+                "16834514847108729468"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1411,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:u-x6o8ySG0sC",
+            "bib": {
+                "citation": "The review of economic studies 65 (3), 595-621, 1998",
+                "pub_year": "1998",
+                "title": "Learning from neighbours"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17661935998297437971",
+            "cites_id": [
+                "17661935998297437971"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1245,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:UeHWp8X0CEIC",
+            "bib": {
+                "citation": "The review of economic studies 77 (1), 218-244, 2010",
+                "pub_year": "2010",
+                "title": "Network games"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10781877536824009719",
+            "cites_id": [
+                "10781877536824009719"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 949,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:qjMakFHDy7sC",
+            "bib": {
+                "citation": "Journal of political economy 114 (2), 403-412, 2006",
+                "pub_year": "2006",
+                "title": "Economics: An emerging small world"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4145609044409076850",
+            "cites_id": [
+                "4145609044409076850"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 688,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:2osOgNQ5qMEC",
+            "bib": {
+                "citation": "Rand Journal of Economics, 686-707, 2001",
+                "pub_year": "2001",
+                "title": "R&d networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10263775667336448039",
+            "cites_id": [
+                "10263775667336448039"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 595,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:9yKSN-GCB0IC",
+            "bib": {
+                "citation": "Games and Economic behavior 43 (1), 57-85, 2003",
+                "pub_year": "2003",
+                "title": "Networks of collaboration in oligopoly"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8099812963505597202",
+            "cites_id": [
+                "8099812963505597202"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 579,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:Se3iqnhoufwC",
+            "bib": {
+                "citation": "The RAND Journal of Economics 40 (3), 509-532, 2009",
+                "pub_year": "2009",
+                "title": "Influencing the influencers: a theory of strategic diffusion"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=753982613825663956",
+            "cites_id": [
+                "753982613825663956"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 426,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:bEWYMUwI8FkC",
+            "bib": {
+                "citation": "Comparative Political Studies 34 (1), 63-93, 2001",
+                "pub_year": "2001",
+                "title": "Group size and collective action: Third-party monitoring in common-pool resources"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8293124535660882064,5974349260015812177",
+            "cites_id": [
+                "8293124535660882064",
+                "5974349260015812177"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 411,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:roLk4NBRz8UC",
+            "bib": {
+                "citation": "American Economic Review 100 (4), 1468-1492, 2010",
+                "pub_year": "2010",
+                "title": "The law of the few"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5041078007003138610",
+            "cites_id": [
+                "5041078007003138610"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 410,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:Y0pCki6q_DkC",
+            "bib": {
+                "citation": "Journal of Economic Theory 137 (1), 460-492, 2007",
+                "pub_year": "2007",
+                "title": "Structural holes in social networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3683820973231204144",
+            "cites_id": [
+                "3683820973231204144"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 408,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:zYLM7Y9cAGgC",
+            "bib": {
+                "citation": "Games and Economic Behavior 54 (2), 353-372, 2006",
+                "pub_year": "2006",
+                "title": "Network formation with heterogeneous players"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9882131944970397972",
+            "cites_id": [
+                "9882131944970397972"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 374,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:IjCSPb-OGe4C",
+            "bib": {
+                "citation": "Games and Economic Behavior 50 (2), 178-207, 2005",
+                "pub_year": "2005",
+                "title": "Network formation and social coordination"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7794112584825300869",
+            "cites_id": [
+                "7794112584825300869"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 373,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:tFyepMjQr3wC",
+            "bib": {
+                "citation": "Proceedings of the forty-fourth annual ACM symposium on Theory of computing …, 2012",
+                "pub_year": "2012",
+                "title": "Competitive contagion in networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14238184168863463185",
+            "cites_id": [
+                "14238184168863463185"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 316,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:WF5omc3nYNoC",
+            "bib": {
+                "citation": "International Economic Review 47 (3), 749-778, 2006",
+                "pub_year": "2006",
+                "title": "Bilateralism and free trade"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6711362258298567496",
+            "cites_id": [
+                "6711362258298567496"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 304,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:2hlgnPHlchoC",
+            "bib": {
+                "citation": "Econometrica 88 (6), 2445-2471, 2020",
+                "pub_year": "2020",
+                "title": "Targeting interventions in networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17670293741895672438",
+            "cites_id": [
+                "17670293741895672438"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 266,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:Tyk-4Ss8FVUC",
+            "bib": {
+                "citation": "Review of Economic Design 5, 205-228, 2000",
+                "pub_year": "2000",
+                "title": "A strategic analysis of network reliability"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7054225673389493860",
+            "cites_id": [
+                "7054225673389493860"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 234,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:dyiPZ63SVtYC",
+            "bib": {
+                "citation": "The Review of Economic Studies 81 (4), 1518-1542, 2014",
+                "pub_year": "2014",
+                "title": "Attack, defence, and contagion in networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3355337704837974147",
+            "cites_id": [
+                "3355337704837974147"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 219,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:YsMSGLbcyi4C",
+            "bib": {
+                "citation": "International Journal of Game Theory 34, 319-349, 2006",
+                "pub_year": "2006",
+                "title": "Unequal connections"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16223262830928441765",
+            "cites_id": [
+                "16223262830928441765"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 213,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:9mnZQYLiiboC",
+            "bib": {
+                "citation": "Journal of the European Economic Association 8 (1), 203-231, 2010",
+                "pub_year": "2010",
+                "title": "Matching and network effects"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2005208267596824661",
+            "cites_id": [
+                "2005208267596824661"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 188,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:OC7j4ufeY2cC",
+            "bib": {
+                "citation": "Review of Economics and Statistics 96 (5), 936-948, 2014",
+                "pub_year": "2014",
+                "title": "Social networks and research output"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18315995766093291454",
+            "cites_id": [
+                "18315995766093291454"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 180,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:fHS53ZCY-AEC",
+            "bib": {
+                "citation": "Handbook of social economics 1, 679-727, 2011",
+                "pub_year": "2011",
+                "title": "Learning in networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7250620558296821137",
+            "cites_id": [
+                "7250620558296821137"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 157,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:_FxGoFyzp5QC",
+            "bib": {
+                "citation": "Economic theory 17, 101-120, 2001",
+                "pub_year": "2001",
+                "title": "Conformism and diversity under social learning"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17977413320538799339",
+            "cites_id": [
+                "17977413320538799339"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 156,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:aqlVkmm33-oC",
+            "bib": {
+                "citation": "Journal of the European Economic Association 8 (1), 90-119, 2010",
+                "pub_year": "2010",
+                "title": "Keeping up with the neighbors: social interaction in a market economy"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12489872310574082719",
+            "cites_id": [
+                "12489872310574082719"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 135,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:hqOjcs7Dif8C",
+            "bib": {
+                "citation": "European Economic Review 48 (3), 563-593, 2004",
+                "pub_year": "2004",
+                "title": "The political economy of regionalism"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=267285600911051276,16452235821189260952",
+            "cites_id": [
+                "267285600911051276",
+                "16452235821189260952"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 131,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:vbti4gW_9XwC",
+            "bib": {
+                "citation": "Journal of Development Economics 122, 16-27, 2016",
+                "pub_year": "2016",
+                "title": "Favoritism"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12437401766790671921",
+            "cites_id": [
+                "12437401766790671921"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 120,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:ufrVoPGSRksC",
+            "bib": {
+                "citation": "journal of economic theory 77 (1), 34-57, 1997",
+                "pub_year": "1997",
+                "title": "Non-exclusive conventions and social coordination"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11803812632848863030",
+            "cites_id": [
+                "11803812632848863030"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 117,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:6xXPb0EiZccC",
+            "bib": {
+                "citation": "Journal of the European Economic Association 15 (4), 784-817, 2017",
+                "pub_year": "2017",
+                "title": "Trading in networks: theory and experiments"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8057420499494334135",
+            "cites_id": [
+                "8057420499494334135"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 113,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:KlAtU1dfN6UC",
+            "bib": {
+                "citation": "international Journal of game Theory 33, 1-19, 2004",
+                "pub_year": "2004",
+                "title": "Network formation and anti-coordination games"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11010219070642229583",
+            "cites_id": [
+                "11010219070642229583"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 109,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:6yz0xqPARnAC",
+            "bib": {
+                "citation": "American Economic Journal: Microeconomics 5 (2), 1-32, 2013",
+                "pub_year": "2013",
+                "title": "Strategic immunization and group structure"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12347464361836181816",
+            "cites_id": [
+                "12347464361836181816"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 107,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:8k81kl-MbHgC",
+            "bib": {
+                "citation": "Tinbergen Institute Discussion Paper, 2000",
+                "pub_year": "2000",
+                "title": "Learning, network formation and coordination"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5743557736722689787",
+            "cites_id": [
+                "5743557736722689787"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 107,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:j33aPA1ap8EC",
+            "bib": {
+                "citation": "Review of Economics and Statistics 105 (6), 1366-1378, 2023",
+                "pub_year": "2023",
+                "title": "Gender and collaboration"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8997983649148731957",
+            "cites_id": [
+                "8997983649148731957"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 106,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:LkGwnXOMwfcC",
+            "bib": {
+                "citation": "Theory and Decision 40, 29-49, 1996",
+                "pub_year": "1996",
+                "title": "Can we rationally learn to coordinate?"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7520713608057418182",
+            "cites_id": [
+                "7520713608057418182"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 106,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:4OULZ7Gr8RgC",
+            "bib": {
+                "citation": "Games and Economic Behavior 79, 30-43, 2013",
+                "pub_year": "2013",
+                "title": "Network design and defence"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1521705557132704180",
+            "cites_id": [
+                "1521705557132704180"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 105,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:YOwf2qJgpHMC",
+            "bib": {
+                "citation": "Journal of the European Economic Association 6 (6), 1309-1338, 2008",
+                "pub_year": "2008",
+                "title": "Hybrid r&d"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2283200609791557082",
+            "cites_id": [
+                "2283200609791557082"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 100,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:H0nRGT7Dr7IC",
+            "bib": {
+                "citation": "American Economic Review 107 (1), 1-30, 2017",
+                "pub_year": "2017",
+                "title": "Networks, markets, and inequality"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5214463058767849339",
+            "cites_id": [
+                "5214463058767849339"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 97,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:4X0JR2_MtJMC",
+            "bib": {
+                "citation": "Journal of Human Resources 48 (4), 1072-1094, 2013",
+                "pub_year": "2013",
+                "title": "Popularity"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14693143785858811120",
+            "cites_id": [
+                "14693143785858811120"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 83,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:0EnyYjriUFMC",
+            "bib": {
+                "citation": "Journal of Institutional and Theoretical Economics (JITE)/Zeitschrift für …, 1996",
+                "pub_year": "1996",
+                "title": "Interaction structure and social change"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2499509664001953572",
+            "cites_id": [
+                "2499509664001953572"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 83,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:5nxA0vEk-isC",
+            "bib": {
+                "citation": "Econometric Institute, Erasmus University Rotterdam, 1993",
+                "pub_year": "1993",
+                "title": "Sustainable communication networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16985677930281673326",
+            "cites_id": [
+                "16985677930281673326"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 82,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:LLUdpdcEW3AC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2016",
+                "title": "Networks in the laboratory"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=407795918006446284",
+            "cites_id": [
+                "407795918006446284"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 75,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:rsrKZ8bNWIsC",
+            "bib": {
+                "citation": "University of Essex, Department of Economics, Economics Discussion Papers, 2003",
+                "pub_year": "2003",
+                "title": "Learning in networks: a survey"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12421532285096322174",
+            "cites_id": [
+                "12421532285096322174"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 75,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:3fE2CSJIrl8C",
+            "bib": {
+                "citation": "",
+                "pub_year": "1997",
+                "title": "Self-organization in communication networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6185153570880331993",
+            "cites_id": [
+                "6185153570880331993"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 68,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:kNdYIx-mwKoC",
+            "bib": {
+                "citation": "International Journal of Industrial Organization 13 (3), 307-325, 1995",
+                "pub_year": "1995",
+                "title": "Technological change in markets with network externalities"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17823412690675087908",
+            "cites_id": [
+                "17823412690675087908"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 63,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:dhFuZR0502QC",
+            "bib": {
+                "citation": "Review of Network Economics 10 (2), 2011",
+                "pub_year": "2011",
+                "title": "Strong ties in a small world"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9638574099741894666,13724429811806922682",
+            "cites_id": [
+                "9638574099741894666",
+                "13724429811806922682"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 61,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:HkunuPqSaCsC",
+            "bib": {
+                "citation": "Theoretical Economics 12 (1), 331-376, 2017",
+                "pub_year": "2017",
+                "title": "How do you defend a network?"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18020419993776267771,9466939041021171026,6928272777408637877",
+            "cites_id": [
+                "18020419993776267771",
+                "9466939041021171026",
+                "6928272777408637877"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 57,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:4DMP91E08xMC",
+            "bib": {
+                "citation": "Unpublished discussion paper, 2010",
+                "pub_year": "2010",
+                "title": "Robust networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1317543995618374245",
+            "cites_id": [
+                "1317543995618374245"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 57,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:pxLfhFzThFYC",
+            "bib": {
+                "citation": "Web and Internet Economics: 12th International Conference, WINE 2016 …, 2016",
+                "pub_year": "2016",
+                "title": "Strategic network formation with attack and immunization"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17392529411742489524",
+            "cites_id": [
+                "17392529411742489524"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 52,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:SyxJh60XUSQC",
+            "bib": {
+                "citation": "Journal of Public Economics 125, 64-69, 2015",
+                "pub_year": "2015",
+                "title": "Interaction, protection and epidemics"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2607750051111214535",
+            "cites_id": [
+                "2607750051111214535"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 51,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:_kc_bZDykSQC",
+            "bib": {
+                "citation": "The Economic Journal 104 (423), 282-290, 1994",
+                "pub_year": "1994",
+                "title": "The birth of a new market"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16820601609985081740",
+            "cites_id": [
+                "16820601609985081740"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 51,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:2tRrZ1ZAMYUC",
+            "bib": {
+                "citation": "Games and Economic Behavior 87, 519-538, 2014",
+                "pub_year": "2014",
+                "title": "Congested observational learning"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6170568046341409813",
+            "cites_id": [
+                "6170568046341409813"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 42,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:M3ejUd6NZC8C",
+            "bib": {
+                "citation": "Journal of the European Economic Association 3 (2-3), 608-616, 2005",
+                "pub_year": "2005",
+                "title": "Strong and weak links"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4997420897442547808",
+            "cites_id": [
+                "4997420897442547808"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 39,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:M3NEmzRMIkIC",
+            "bib": {
+                "citation": "Journal of Economic Behavior & Organization 123, 78-96, 2016",
+                "pub_year": "2016",
+                "title": "Network cognition"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2736665102149481699",
+            "cites_id": [
+                "2736665102149481699"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 38,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:_Qo2XoVZTnwC",
+            "bib": {
+                "citation": "The SAGE handbook of social network analysis, 67-79, 2011",
+                "pub_year": "2011",
+                "title": "Social networks in economics"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2962735530969260388",
+            "cites_id": [
+                "2962735530969260388"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 37,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:38eRAUXPO10C",
+            "bib": {
+                "citation": "The economic journal 127 (606), 2302-2331, 2017",
+                "pub_year": "2017",
+                "title": "Information acquisition and exchange in social networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12212035619036900646",
+            "cites_id": [
+                "12212035619036900646"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 34,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:r_AWSJRzSzQC",
+            "bib": {
+                "citation": "International Journal of Economic Theory 7 (1), 77-92, 2011",
+                "pub_year": "2011",
+                "title": "Complex networks and local externalities: A strategic approach"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6047469405845872055",
+            "cites_id": [
+                "6047469405845872055"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 33,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:YIdQ7BAI8VoC",
+            "bib": {
+                "citation": "Journal of Economic Theory 191, 105161, 2021",
+                "pub_year": "2021",
+                "title": "The strategy of conquest"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13147859250507580104",
+            "cites_id": [
+                "13147859250507580104"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 32,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:9ZlFYXVOiuMC",
+            "bib": {
+                "citation": "Journal of Mathematical Economics 28 (3), 249-264, 1997",
+                "pub_year": "1997",
+                "title": "Costs of flexibility and equilibrium selection"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18156634741880842854",
+            "cites_id": [
+                "18156634741880842854"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 32,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:YXeC4bxG7-IC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2016",
+                "title": "Networks in economics: a perspective on the literature"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17978906110446142197",
+            "cites_id": [
+                "17978906110446142197"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 31,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:LgRImbQfgY4C",
+            "bib": {
+                "citation": "American Journal of Political Science 59 (2), 475-494, 2015",
+                "pub_year": "2015",
+                "title": "Information aggregation and optimal structure of the executive"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=754834840977943045",
+            "cites_id": [
+                "754834840977943045"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 31,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:Wp0gIr-vW9MC",
+            "bib": {
+                "citation": "International Economic Review, 303-323, 1995",
+                "pub_year": "1995",
+                "title": "A theory of learning with heterogeneous agents"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11908421358851832235",
+            "cites_id": [
+                "11908421358851832235"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 29,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:vYYylRVofzEC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2003",
+                "title": "Network formation with heterogeneous players"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4291971649870985665",
+            "cites_id": [
+                "4291971649870985665"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 28,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:P5F9QuxV20EC",
+            "bib": {
+                "citation": "The Oxford handbook of the digital economy, 434, 2012",
+                "pub_year": "2012",
+                "title": "Social networks on the Web"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14950412199934410148",
+            "cites_id": [
+                "14950412199934410148"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 26,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:cUMtEw7vMgQC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2016",
+                "title": "Conflict and networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4628990174126420219",
+            "cites_id": [
+                "4628990174126420219"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 24,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:3ssty3PwuTgC",
+            "bib": {
+                "citation": "Journal of Economic Theory 170, 182-226, 2017",
+                "pub_year": "2017",
+                "title": "Individual security, contagion, and network design"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3372489841823217546",
+            "cites_id": [
+                "3372489841823217546"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 23,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:MbTKqoTs-1EC",
+            "bib": {
+                "citation": "Tinbergen Institute Discussion Paper, 2006",
+                "pub_year": "2006",
+                "title": "Strong ties in a small world"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14520539973906079686",
+            "cites_id": [
+                "14520539973906079686"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 23,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:D_YRMw8gybsC",
+            "bib": {
+                "citation": "Experimental Economics 24, 387-413, 2021",
+                "pub_year": "2021",
+                "title": "Integration and diversity"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13374130754827258381",
+            "cites_id": [
+                "13374130754827258381"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 21,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:3q5vy9RXY8EC",
+            "bib": {
+                "citation": "Tinbergen Institute Discussion Paper 2020-019/II, 2020",
+                "pub_year": "2020",
+                "title": "On the influence of top journals"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=736562413752827015",
+            "cites_id": [
+                "736562413752827015"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 20,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:edV_OwlUe4UC",
+            "bib": {
+                "citation": "2013 51st Annual Allerton Conference on Communication, Control, and …, 2013",
+                "pub_year": "2013",
+                "title": "Contagion and observability in security domains"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2883031434361250060",
+            "cites_id": [
+                "2883031434361250060"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 20,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:j3f4tGmQtD8C",
+            "bib": {
+                "citation": "Journal of Institutional and Theoretical Economics (JITE)/Zeitschrift für …, 2019",
+                "pub_year": "2019",
+                "title": "Narrow identities"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13214441838081095677",
+            "cites_id": [
+                "13214441838081095677"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 19,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:0uG9q0SNyf4C",
+            "bib": {
+                "citation": "Advances in Economics and Econometrics 1, 215-67, 2017",
+                "pub_year": "2017",
+                "title": "Networks and markets"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10633226791949511014,15282320185340953896",
+            "cites_id": [
+                "10633226791949511014",
+                "15282320185340953896"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 19,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:QxlgOPrhsAcC",
+            "bib": {
+                "citation": "Faculty of Economics, 2016",
+                "pub_year": "2016",
+                "title": "Financial linkages, portfolio choice and systemic risk"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5362558700128640285",
+            "cites_id": [
+                "5362558700128640285"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 18,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:aJ-3-MYELVsC",
+            "bib": {
+                "citation": "Scientific Reports 10 (1), 11113, 2020",
+                "pub_year": "2020",
+                "title": "Effect of network topology and node centrality on trading"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5307315465810129446",
+            "cites_id": [
+                "5307315465810129446"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 17,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:ZM__uENUXnMC",
+            "bib": {
+                "citation": "Oxford Review of Economic Policy 35 (4), 565-585, 2019",
+                "pub_year": "2019",
+                "title": "Networks and economic policy"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5955848867524268002",
+            "cites_id": [
+                "5955848867524268002"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 15,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:GUJN1xMjMHAC",
+            "bib": {
+                "citation": "Faculty of Economics, 2015",
+                "pub_year": "2015",
+                "title": "Contagion risk and network design"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6623676771096622363",
+            "cites_id": [
+                "6623676771096622363"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 15,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:geVfx-PNG5EC",
+            "bib": {
+                "citation": "Available at SSRN 952448, 2006",
+                "pub_year": "2006",
+                "title": "Matching and network effects"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2591939845581947010",
+            "cites_id": [
+                "2591939845581947010"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 14,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:Sw8WaQuuSIgC",
+            "bib": {
+                "citation": "Tinbergen Institute Discussion Papers, 1999",
+                "pub_year": "1999",
+                "title": "A non-cooperative theory of network formation"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10942677487626966943",
+            "cites_id": [
+                "10942677487626966943"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 14,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:r0BpntZqJG4C",
+            "bib": {
+                "citation": "Revue d'économie industrielle 103 (1), 207-232, 2003",
+                "pub_year": "2003",
+                "title": "Firms, networks and markets: a survey of recent research."
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16406747567870168915",
+            "cites_id": [
+                "16406747567870168915"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 13,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:r5WMYYrv30cC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2010",
+                "title": "Learnings"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=283483824365251989",
+            "cites_id": [
+                "283483824365251989"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 11,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:y7JhAc_VBLgC",
+            "bib": {
+                "citation": "International Journal of Game Theory 33 (1), 1-19, 2004",
+                "pub_year": "2004",
+                "title": "Social interaction in anti-coordination games"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9119222531747219691",
+            "cites_id": [
+                "9119222531747219691"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 11,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:BJbdYPG6LGMC",
+            "bib": {
+                "citation": "Tinbergen Institute Discussion Paper, 2001",
+                "pub_year": "2001",
+                "title": "Electoral Cycles: Do they really fit the Data?"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4512891787250836028",
+            "cites_id": [
+                "4512891787250836028"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 11,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:9UF2BbDYXHIC",
+            "bib": {
+                "citation": "Revista de Administração (São Paulo) 51 (2), 240-243, 2016",
+                "pub_year": "2016",
+                "title": "Social networks and the firm"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4594949677625576681",
+            "cites_id": [
+                "4594949677625576681"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 10,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:TQgYirikUcIC",
+            "bib": {
+                "citation": "University of Cambridge, 2011",
+                "pub_year": "2011",
+                "title": "Security games with contagion"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=831873102855289257",
+            "cites_id": [
+                "831873102855289257"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 10,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:BHd7YmozNHgC",
+            "bib": {
+                "citation": "Princeton University Press, 2007",
+                "pub_year": "2007",
+                "title": "Connections: an introduction to the network economy"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4815320924927009010",
+            "cites_id": [
+                "4815320924927009010"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 10,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:00hq1xGbIBsC",
+            "bib": {
+                "citation": "Journal of Digital Asset Management 2, 6-16, 2006",
+                "pub_year": "2006",
+                "title": "A digital media asset ecosystem for the global film industry"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6779436858492781985",
+            "cites_id": [
+                "6779436858492781985"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 10,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:_IwLajd9sWMC",
+            "bib": {
+                "citation": "arXiv preprint arXiv:2112.08153, 2021",
+                "pub_year": "2021",
+                "title": "Taxes and market power: A principal components approach"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15211998629609883652",
+            "cites_id": [
+                "15211998629609883652"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 9,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:ult01sCh7k0C",
+            "bib": {
+                "citation": "Available at SSRN 3986272, 2021",
+                "pub_year": "2021",
+                "title": "Taxes and market power: A network approach"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8699197048699641388",
+            "cites_id": [
+                "8699197048699641388"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 9,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:JQPmwQThujIC",
+            "bib": {
+                "citation": "arXiv preprint arXiv:2102.13309, 2021",
+                "pub_year": "2021",
+                "title": "Discord and harmony in networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=756566689846147186",
+            "cites_id": [
+                "756566689846147186"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 9,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:6_6x9JMR98MC",
+            "bib": {
+                "citation": "Handbook of computational economics 4, 687-712, 2018",
+                "pub_year": "2018",
+                "title": "Heterogeneity and networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13975815750756861112",
+            "cites_id": [
+                "13975815750756861112"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 9,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:o0tJHVzi6PsC",
+            "bib": {
+                "citation": "The Oxford Handbook of the Economics of Networks, 2015",
+                "pub_year": "2015",
+                "title": "Conflict and networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2347205098830464286",
+            "cites_id": [
+                "2347205098830464286"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 9,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:dgXhHFWAKKUC",
+            "bib": {
+                "citation": "Introductory Chapters, 2007",
+                "pub_year": "2007",
+                "title": "Introduction to connections: An introduction to the economics of networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9292107246080600264",
+            "cites_id": [
+                "9292107246080600264"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 9,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:B71Od6CY_ssC",
+            "bib": {
+                "citation": "Faculty of Economics, University of Cambridge, 2019",
+                "pub_year": "2019",
+                "title": "Connectors and influencers"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1720341619190336518,11148229002238972710",
+            "cites_id": [
+                "1720341619190336518",
+                "11148229002238972710"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 8,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:3UHJKpZgG5wC",
+            "bib": {
+                "citation": "Proceedings of the fifteenth ACM conference on Economics and computation …, 2014",
+                "pub_year": "2014",
+                "title": "Individual security and network design"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1549823324513203082",
+            "cites_id": [
+                "1549823324513203082"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 8,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:M3hCyctIOBoC",
+            "bib": {
+                "citation": "Management Science 69 (5), 2778-2787, 2023",
+                "pub_year": "2023",
+                "title": "Learning in networks: An experiment on large networks with real-world features"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9357389864888534983",
+            "cites_id": [
+                "9357389864888534983"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 7,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:zmHQPunddckC",
+            "bib": {
+                "citation": "Institute of Economic Research, Seoul National University Working Paper Series, 2019",
+                "pub_year": "2019",
+                "title": "Network formation in large groups"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1463449851643871922",
+            "cites_id": [
+                "1463449851643871922"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 7,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:cAUKuAERoUMC",
+            "bib": {
+                "citation": "Available at SSRN 2995918, 2017",
+                "pub_year": "2017",
+                "title": "Financial contagion in networks: A market experiment"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3250681806690696900",
+            "cites_id": [
+                "3250681806690696900"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 7,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:H8haQKU-3ZsC",
+            "bib": {
+                "citation": "Proceedings of the 2016 ACM Conference on Economics and Computation, 655-656, 2016",
+                "pub_year": "2016",
+                "title": "Dynamic conflict on a network"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=170075604915804312",
+            "cites_id": [
+                "170075604915804312"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 7,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:fSKd39tHJ84C",
+            "bib": {
+                "citation": "Discussion Paper, 2009",
+                "pub_year": "2009",
+                "title": "Narrow identities"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11460012338528279733",
+            "cites_id": [
+                "11460012338528279733"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 7,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:W7OEmFMy1HYC",
+            "bib": {
+                "citation": "Equilibrium, Markets and Dynamics: Essays in Honour of Claus Weddepohl, 283-292, 2002",
+                "pub_year": "2002",
+                "title": "Learning in networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3399425938563879118",
+            "cites_id": [
+                "3399425938563879118"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 7,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:O3NaXMp0MMsC",
+            "bib": {
+                "citation": "Journal of Economic Behavior & Organization 28 (2), 223-239, 1995",
+                "pub_year": "1995",
+                "title": "Dynamic coordination failures and the efficiency of the firm"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12288319047345073976",
+            "cites_id": [
+                "12288319047345073976"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 7,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:tJ_1M1FLfZ0C",
+            "bib": {
+                "citation": "m mimeo, 0",
+                "title": "Redondo, and L. Yariv (2006), lNetwork Games"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1521956156748335455",
+            "cites_id": [
+                "1521956156748335455"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 7,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:lu5AzqVF4qYC",
+            "bib": {
+                "citation": "Journal of Economic Literature 57 (3), 678-689, 2019",
+                "pub_year": "2019",
+                "title": "Society and Economy: Frameworks and Principles: A book review"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3005268714010000531",
+            "cites_id": [
+                "3005268714010000531"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 6,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:8EvVLpklxGMC",
+            "bib": {
+                "citation": "Faculty of Economics, 2017",
+                "pub_year": "2017",
+                "title": "Integration and segregation"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12237845375557263610",
+            "cites_id": [
+                "12237845375557263610"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 6,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:7uOkfv6XYJ4C",
+            "bib": {
+                "citation": "Instituto Valenciano de Investigaciones Económicas, 2010",
+                "pub_year": "2010",
+                "title": "Strong ties in a small world"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3235297118624696890",
+            "cites_id": [
+                "3235297118624696890"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 6,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:UPMPWMAU16oC",
+            "bib": {
+                "citation": "Inst. Valenciano de Investigaciones Económicas, 2002",
+                "pub_year": "2002",
+                "title": "Network Formation and Anti-coordination games"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8831002186536055006",
+            "cites_id": [
+                "8831002186536055006"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 6,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:5AT-p8ixKR4C",
+            "bib": {
+                "citation": "Review of Economics and Statistics 96 (5), 936-948, 2014",
+                "pub_year": "2014",
+                "title": "Social networks and research output"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7822309743133656684",
+            "cites_id": [
+                "7822309743133656684"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 5,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:CHSYGLWDkRkC",
+            "bib": {
+                "citation": "Review of Network Economics 11 (3), 2012",
+                "pub_year": "2012",
+                "title": "Network multipliers: the optimality of targeting neighbors"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14258663515127934534",
+            "cites_id": [
+                "14258663515127934534"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 5,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:RwQ8IgSj6xkC",
+            "bib": {
+                "citation": "Review of Economic Studies 77 (1), 218-244, 2010",
+                "pub_year": "2010",
+                "title": "Network games"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4974593895987734366",
+            "cites_id": [
+                "4974593895987734366"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 5,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:4JMBOYKVnBMC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2007",
+                "title": "Network multipliers and the optimality of indirect communication"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10629525142487436199",
+            "cites_id": [
+                "10629525142487436199"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 5,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:vDZJ-YLwNdEC",
+            "bib": {
+                "citation": "Rozenberg Publishers, 2005",
+                "pub_year": "2005",
+                "title": "On social and economic networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1405633740598736068",
+            "cites_id": [
+                "1405633740598736068"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 5,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:OP2qWFMeUpEC",
+            "bib": {
+                "citation": "arXiv preprint arXiv:2411.03026, 2024",
+                "pub_year": "2024",
+                "title": "Robust Market Interventions"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4756173610494824593",
+            "cites_id": [
+                "4756173610494824593"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 4,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:yRRszJvrVdAC",
+            "bib": {
+                "citation": "Working Paper, Middlesex University London, 2017",
+                "pub_year": "2017",
+                "title": "Gender and social networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18081669633098908287",
+            "cites_id": [
+                "18081669633098908287"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 4,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:cFHS6HbyZ2cC",
+            "bib": {
+                "citation": "working paper, 2012",
+                "pub_year": "2012",
+                "title": "Competig for security"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7553652057030576679",
+            "cites_id": [
+                "7553652057030576679"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 4,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:TFP_iSt0sucC",
+            "bib": {
+                "citation": "mimeo, 2010",
+                "pub_year": "2010",
+                "title": "Endogenous interaction and vaccination"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13035980325442850310",
+            "cites_id": [
+                "13035980325442850310"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 4,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:QSG1pgF8pGAC",
+            "bib": {
+                "citation": "Uitgeverij Eburon, 1999",
+                "pub_year": "1999",
+                "title": "Networks, learning and equilibrium"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16107461201889612077",
+            "cites_id": [
+                "16107461201889612077"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 4,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:WTkkuPxyGkUC",
+            "bib": {
+                "citation": "Journal of Economic Theory 137 (1), 460, 0",
+                "title": "Vega# Redondo, F., 2007. Structural holes in social networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11301021884600901274",
+            "cites_id": [
+                "11301021884600901274"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 4,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:StPPYsf1FV0C",
+            "bib": {
+                "citation": "",
+                "pub_year": "2024",
+                "title": "Experimental Evidence on the Relation Between Network Centrality and Individual Choice"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11322065026174756557",
+            "cites_id": [
+                "11322065026174756557"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 3,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:lAj_JhtUatoC",
+            "bib": {
+                "citation": "Proceedings of the National Academy of Sciences 120 (28), e2301929120, 2023",
+                "pub_year": "2023",
+                "title": "Brokerage rents and intermediation networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13398413795054816226",
+            "cites_id": [
+                "13398413795054816226"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 3,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:7f0ks1Axv_QC",
+            "bib": {
+                "citation": "Faculty of Economics, University of Cambridge, 2022",
+                "pub_year": "2022",
+                "title": "Learning in canonical networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7224239530601588516",
+            "cites_id": [
+                "7224239530601588516"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 3,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:f5lEeLvKxmwC",
+            "bib": {
+                "citation": "US Patent 11,328,326, 2022",
+                "pub_year": "2022",
+                "title": "Method and system for targeted advertising in an over-the-top (OTT) ecosystem"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3377799670816885751",
+            "cites_id": [
+                "3377799670816885751"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 3,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:zTJoPluU4X4C",
+            "bib": {
+                "citation": "bepress, 2014",
+                "pub_year": "2014",
+                "title": "Individual search and social networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7060072099926833172",
+            "cites_id": [
+                "7060072099926833172"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 3,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:RHpTSmoSYBkC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2007",
+                "title": "Games of social influence"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10226028181371950171",
+            "cites_id": [
+                "10226028181371950171"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 3,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:wH03y5nBhxsC",
+            "bib": {
+                "citation": "University of Oxford, Department of Economics Economics Series Working Papers, 2000",
+                "pub_year": "2000",
+                "title": "Land lease markets and agricultural efficiency: Theory and evidence from Ethiopia"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4936115644752018456",
+            "cites_id": [
+                "4936115644752018456"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 3,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:E8ajGqO0XoUC",
+            "bib": {
+                "citation": "",
+                "pub_year": "1994",
+                "title": "Rajasthan and Gujarat: a collection of papers."
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=139749583477648219",
+            "cites_id": [
+                "139749583477648219"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 3,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:R1TrASrH5esC",
+            "bib": {
+                "citation": "medRxiv, 2020.05. 15.20103374, 2020",
+                "pub_year": "2020",
+                "title": "A data-driven method to detect the flattening of the COVID-19 pandemic curve and estimating its ending life-cycle using only the time-series of new cases per day"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8335520232683609203",
+            "cites_id": [
+                "8335520232683609203"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:WYtWvJut7doC",
+            "bib": {
+                "citation": "arXiv preprint arXiv:1906.01531, 2019",
+                "pub_year": "2019",
+                "title": "Trading in complex networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1481383639509857565",
+            "cites_id": [
+                "1481383639509857565"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:QC-2xSqExF4C",
+            "bib": {
+                "citation": "Faculty of Economics, 2015",
+                "pub_year": "2015",
+                "title": "Conflict and networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5140028746750603674",
+            "cites_id": [
+                "5140028746750603674"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:AzjrKLz9U9oC",
+            "bib": {
+                "citation": "Mimeo, Cambridge, 2014",
+                "pub_year": "2014",
+                "title": "Adaptive interaction and vaccination"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2252070952276265671",
+            "cites_id": [
+                "2252070952276265671"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:cAWJABFkdiUC",
+            "bib": {
+                "citation": "working paper, 2013",
+                "pub_year": "2013",
+                "title": "Social interaction, vaccination, and epidemics"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8192704150442301984",
+            "cites_id": [
+                "8192704150442301984"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:ECvNt0vk_34C",
+            "bib": {
+                "citation": "Games and Economic Behavior 79 (1), 30-43, 2013",
+                "pub_year": "2013",
+                "title": "Network design and defence"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9764123176089716589",
+            "cites_id": [
+                "9764123176089716589"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:a0OBvERweLwC",
+            "bib": {
+                "citation": "Review of Network Economics 11 (3), 2012",
+                "pub_year": "2012",
+                "title": "Special Issue Introduction: Social Networks and Economics"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11344752421970578534",
+            "cites_id": [
+                "11344752421970578534"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:RGFaLdJalmkC",
+            "bib": {
+                "citation": "mimeo, 2010",
+                "pub_year": "2010",
+                "title": "Preferential Attachment and Individual Heterogeneity"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14862487761273001648",
+            "cites_id": [
+                "14862487761273001648"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:hMod-77fHWUC",
+            "bib": {
+                "citation": "Mimeo, Cambridge University, 2009",
+                "pub_year": "2009",
+                "title": "Interaction, infection and control"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6428317240394897844",
+            "cites_id": [
+                "6428317240394897844"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:maZDTaKrznsC",
+            "bib": {
+                "citation": "Netnomics 4, 19-37, 2002",
+                "pub_year": "2002",
+                "title": "Market integration and technological change"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15040270236455703383",
+            "cites_id": [
+                "15040270236455703383"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:U_h31ocWZrQC",
+            "bib": {
+                "citation": "Review of Economic Design 5 (205), 28, 2000",
+                "pub_year": "2000",
+                "title": "An analysis of strategic reliability"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5286362865792799881",
+            "cites_id": [
+                "5286362865792799881"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:Nb0HLiwjfsIC",
+            "bib": {
+                "citation": "",
+                "pub_year": "1998",
+                "title": "Effectiveness of communication and regulation in local commons: some evidence from experiments in the field"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9692449590626393637",
+            "cites_id": [
+                "9692449590626393637"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:iH-uZ7U-co4C",
+            "bib": {
+                "citation": "Econometric Institute, 1996",
+                "pub_year": "1996",
+                "title": "Grace periods in patent law"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5903564486656977930",
+            "cites_id": [
+                "5903564486656977930"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:NMxIlDl6LWMC",
+            "bib": {
+                "citation": "Economic design 1, 79-102, 1994",
+                "pub_year": "1994",
+                "title": "On the possibility of efficient bilateral trade"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6560868510682822393",
+            "cites_id": [
+                "6560868510682822393"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:isC4tDSrTZIC",
+            "bib": {
+                "citation": "",
+                "pub_year": "1992",
+                "title": "On the persistence of inefficient norms"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13105208677256596045",
+            "cites_id": [
+                "13105208677256596045"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 2,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:WMj-6b1RDO4C",
+            "bib": {
+                "citation": "Cambridge Working Papers in Economics, 2025",
+                "pub_year": "2025",
+                "title": "Behavioral Attenuation in Networks"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16356586263306710537",
+            "cites_id": [
+                "16356586263306710537"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:csTP5AdqY_wC",
+            "bib": {
+                "citation": "Available at SSRN 3245819, 2017",
+                "pub_year": "2017",
+                "title": "Financial linkages and portfolio choice"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5560491669686324866",
+            "cites_id": [
+                "5560491669686324866"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:kVKjLOQJbwAC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2016",
+                "title": "Networks in Economics"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4272170624511255584",
+            "cites_id": [
+                "4272170624511255584"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:P_fFXc30I2UC",
+            "bib": {
+                "citation": "The Oxford Handbook of the Digital Economy, 434-459, 2012",
+                "pub_year": "2012",
+                "title": "434 Social Networks on the Web"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11763337869665861746",
+            "cites_id": [
+                "11763337869665861746"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:1yQoGdGgb4wC",
+            "bib": {
+                "citation": "University of Essex manuscript, 2004",
+                "pub_year": "2004",
+                "title": "Strategic Intermediation in a Two-Sided Market"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12463700350901746878",
+            "cites_id": [
+                "12463700350901746878"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:dQ2og3OwTAUC",
+            "bib": {
+                "citation": "Available at SSRN 554489, 2004",
+                "pub_year": "2004",
+                "title": "A Model of Strategic Targeted Advertising"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=52971079242981125",
+            "cites_id": [
+                "52971079242981125"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:blknAaTinKkC",
+            "bib": {
+                "citation": "Games and Economic Behavior 46 (1), 219-219, 2004",
+                "pub_year": "2004",
+                "title": "Erratum to\" Networks of collaboration in oligopoly\":[Games Econ. Behav. 43 (1)(2003) 57-85]"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4247857119188328433",
+            "cites_id": [
+                "4247857119188328433"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:ns9cj8rnVeAC",
+            "bib": {
+                "citation": "Econometric Institute, Erasmus University Rotterdam, 1992",
+                "pub_year": "1992",
+                "title": "On the Optimality of Single vs. Sequential Patents"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14528589793619005373",
+            "cites_id": [
+                "14528589793619005373"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:BqipwSGYUEgC",
+            "bib": {
+                "citation": "Cornell University, 1990",
+                "pub_year": "1990",
+                "title": "Essays on the economics of learning"
+            },
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7230621512716960905",
+            "cites_id": [
+                "7230621512716960905"
+            ],
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 1,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:p7qoFRH4VUUC",
+            "bib": {
+                "citation": "BAFFI Centre Research Paper, 2025",
+                "pub_year": "2025",
+                "title": "Social Structure, State, and Economic Activity"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:kyHTWmgVackC",
+            "bib": {
+                "citation": "Journal of Cybersecurity and Privacy 5 (1), 5, 2025",
+                "pub_year": "2025",
+                "title": "Mitigating Malicious Insider Threats to Common Data Environments in the Architecture, Engineering, and Construction Industry: An Incomplete Information Game Approach"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:Y1W0x10ZrwMC",
+            "bib": {
+                "citation": "Games and Economic Behavior 147, 52-73, 2024",
+                "pub_year": "2024",
+                "title": "Clubs and networks"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:_09KEOFGu60C",
+            "bib": {
+                "citation": "Faculty of Economics, University of Cambridge, 2024",
+                "pub_year": "2024",
+                "title": "Experimental Evidence on Group Size Effects in Network Formation Games"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:XyWThvt29VcC",
+            "bib": {
+                "citation": "International Conference on Applied Cryptography and Network Security, 188-192, 2024",
+                "pub_year": "2024",
+                "title": "Game Theoretic Modeling of Insider Threats in an Organization"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:aXwx4OqTWR4C",
+            "bib": {
+                "citation": "Faculty of Economics, University of Cambridge, 2024",
+                "pub_year": "2024",
+                "title": "Interconnected Conflict"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:LwieBGrN4GEC",
+            "bib": {
+                "citation": "Janeway Institute Working Papers, 2024",
+                "pub_year": "2024",
+                "title": "Interconnected Conflict"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:mRAYM1lGiDwC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2022",
+                "title": "Brokerage: an experimental study"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:zBCjByih94YC",
+            "bib": {
+                "citation": "University of Cambridge, Faculty of Economics, 2022",
+                "pub_year": "2022",
+                "title": "Learning in Canonical Networks: An Experiment on Large Networks with Real-world Features"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:-rwTIRUNLawC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2021",
+                "title": "Gender & Collaboration: Supplementary Appendix"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:aSKcRT6rTsQC",
+            "bib": {
+                "citation": "CEPR Discussion Papers, 2021",
+                "pub_year": "2021",
+                "title": "Gender and Collaboration"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:9PmR9Y676FQC",
+            "bib": {
+                "citation": "Erasmus Journal for Philosophy and Economics 14 (2), 115–122-115–122, 2021",
+                "pub_year": "2021",
+                "title": "Narrow Identities Revisited"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:EVKlETVVbN8C",
+            "bib": {
+                "citation": "ThE Papers, 2020",
+                "pub_year": "2020",
+                "title": "On the Inuence of Top Journals"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:UwpDZDXJMDUC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2019",
+                "title": "Cambridge Working Papers in Economics"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:bNB6FdaCRgEC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2018",
+                "title": "Cambridge-INET Institute"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:-Z8x4v2cOtkC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2016",
+                "title": "Cambridge Working Papers in Economics"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:pZYLKkizsIQC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2016",
+                "title": "Conflict and Networks"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:F-1HeU7gMOYC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2016",
+                "title": "Sage Research Methods"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:Iq19BMNozs4C",
+            "bib": {
+                "citation": "Faculty of Economics, 2015",
+                "pub_year": "2015",
+                "title": "Social Structure, Markets and Inequality"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:AdGrMoNItN4C",
+            "bib": {
+                "citation": "bepress, 2015",
+                "pub_year": "2015",
+                "title": "Contagion Risk and Network Design"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:XAEgxC7iu0MC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2013",
+                "title": "reVIew of network economIcs"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:xtRiw3GOFMkC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2010",
+                "title": "Submission Number: PET11-11-00081"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:ldfaerwXgEUC",
+            "bib": {
+                "citation": "The Economist, 2010",
+                "pub_year": "2010",
+                "title": "Network Cognition"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:AbS6eEh_b9AC",
+            "bib": {
+                "citation": "Cahier de recherche/Working Paper 9, 41, 2009",
+                "pub_year": "2009",
+                "title": "Cahier de recherche/Working Paper 09-41"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:IaRkJ05COeQC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2009",
+                "title": "CWPE 0942"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:RYcK_YlVTxYC",
+            "bib": {
+                "citation": "2009 International Conference on Game Theory for Networks, xiv-xiv, 2009",
+                "pub_year": "2009",
+                "title": "Strategic network formation"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:6jAoOr-ogVAC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2009",
+                "title": "Favoritism"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:sJsF-0ZLhtgC",
+            "bib": {
+                "citation": "2009 Meeting Papers, 2009",
+                "pub_year": "2009",
+                "title": "Endogenous job contact networks"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:0d9pApVQ-n0C",
+            "bib": {
+                "citation": "MANAGEMENT ACCOUNTANT-CALCUTTA- 43 (5), 341, 2008",
+                "pub_year": "2008",
+                "title": "A Call to RedefineAccountant'"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:UFuRdyijzaAC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2007",
+                "title": "Continuity of beliefs in network games"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:b0M2c_1WBrUC",
+            "bib": {
+                "citation": "University of Essex, Department of Economics Economics Discussion Papers, 2006",
+                "pub_year": "2006",
+                "title": "Matching and Network Effects"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:F0CZgh39Fi0C",
+            "bib": {
+                "citation": "Games and Economic Behavior 54, 441, 2006",
+                "pub_year": "2006",
+                "title": "Galeotti, Andrea, 353"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:-TLX1-BxFiYC",
+            "bib": {
+                "citation": "Games and Economic Behavior 50, 366, 2005",
+                "pub_year": "2005",
+                "title": "Karni, Edi, 1, 28"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:d3xjRt2Mi1YC",
+            "bib": {
+                "citation": "Games and Economic Behavior 46, 434, 2004",
+                "pub_year": "2004",
+                "title": "Gilboa, Itzhak, 213 Goeree, Jacob K., 365"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:ZyBjE3zI-i8C",
+            "bib": {
+                "citation": "Games and Economic Behavior 43, 327, 2003",
+                "pub_year": "2003",
+                "title": "Bag, Parimal Kanti, 312"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:u_35RYKgDlwC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2002",
+                "title": "Equilibrium Networks with Heterogeneous Players"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:K1AqHrCRkPsC",
+            "bib": {
+                "citation": "Abstracts of the Fifth Spanish Meeting on Game Theory and Applications, 16, 2002",
+                "pub_year": "2002",
+                "title": "Social Interaction in Anti-Coordination Games"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:fPk4N6BV_jEC",
+            "bib": {
+                "citation": "",
+                "pub_year": "2002",
+                "title": "In short"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:SP6oXDckpogC",
+            "bib": {
+                "citation": "Working Papers. Serie AD, 2001",
+                "pub_year": "2001",
+                "title": "Learning, Network Formation And Coordination"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:35N4QoGY0k4C",
+            "bib": {
+                "citation": "Instituto Valenciano de Investigaciones Económicas, SA (Ivie), 2001",
+                "pub_year": "2001",
+                "title": "Learning, Network Formation And Coordination"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:1sJd4Hv_s6UC",
+            "bib": {
+                "citation": "Centre for Development Economics, Delhi School of Economics Working papers, 1999",
+                "pub_year": "1999",
+                "title": "Collaboration and Competition in Networks"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:3s1wT3WcHBgC",
+            "bib": {
+                "citation": "Econometric Institute Research Papers, 1998",
+                "pub_year": "1998",
+                "title": "Conformism and diversity under social learning"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:J_g5lzvAfSwC",
+            "bib": {
+                "citation": "Tinbergen Institute Discussion Papers, 1997",
+                "pub_year": "1997",
+                "title": "Public Funding of Research and Corporate Co-sponsorship"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:cG0OFEevkNgC",
+            "bib": {
+                "citation": "Games and Economic Behavior 19, 250-251, 1997",
+                "pub_year": "1997",
+                "title": "p250—Acknowledgment"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:0vYOBEH00j0C",
+            "bib": {
+                "citation": "journal of economic theory 77, 463-464, 1997",
+                "pub_year": "1997",
+                "title": "article no. ET972377"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:70eg2SAEIzsC",
+            "bib": {
+                "citation": "Erasmus University of Rotterdam-Econometric Institute Papers, 1996",
+                "pub_year": "1996",
+                "title": "Education and Marriage Age"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:MUocvVTjX6cC",
+            "bib": {
+                "citation": "Erasmus Universiteit Rotterdam. Econometrisch Instituut, 1994",
+                "pub_year": "1994",
+                "title": "Costs of Flexibilityand Equilibrium Selection"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:EUQCXRtRnyEC",
+            "bib": {
+                "citation": "Erasmus University of Rotterdam-Econometric Institute Papers, 1993",
+                "pub_year": "1993",
+                "title": "Local Interaction and Coexistence of Conventions"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:UxriW0iASnsC",
+            "bib": {
+                "citation": "Econometric Institute, Erasmus University Rotterdam, 1992",
+                "pub_year": "1992",
+                "title": "General Equilibrium with Income Dependent Prices: Existence and Efficiency"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:HoB7MX3m0LUC",
+            "bib": {
+                "citation": "Econometric Institute, Erasmus University Rotterdam, 1991",
+                "pub_year": "1991",
+                "title": "Market Learning and Cumulative Causation"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:-0tLmPFCw2kC",
+            "bib": {
+                "citation": "Erasmus Universiteit Rotterdam. Econometrisch Instituut, 1990",
+                "pub_year": "1990",
+                "title": "The Envy-free Criterion and Distributive Justice"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:S0CDQJw8Yr4C",
+            "bib": {
+                "citation": "",
+                "pub_year": "1990",
+                "title": "Ph. D. Recipients by Institutions, 1989"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:M05iB0D1s5AC",
+            "bib": {
+                "citation": "McGill University, Department of Economics, 1990",
+                "pub_year": "1990",
+                "title": "Decentralised Learning about Product Quality"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:o_fBUN_Or78C",
+            "bib": {
+                "citation": "",
+                "title": "Nne^ ual connections"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:P--cqP0FnSgC",
+            "bib": {
+                "citation": "",
+                "title": "Hu Fu, Robert D. Kleinberg, Ron Lavi, and Rann Smorodinsky Job security, stability, and production efficiency................................ 1 René Kirkegaard A unifying …"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:z0_F5_TITjQC",
+            "bib": {
+                "citation": "",
+                "title": "ad serie"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:J3KpcKIlIpsC",
+            "bib": {
+                "citation": "",
+                "title": "Targeting interventions in networks"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:BDTQWqO089sC",
+            "bib": {
+                "citation": "",
+                "title": "Share Link"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:OA9cGvo6324C",
+            "bib": {
+                "citation": "",
+                "title": "Sanjeev Goyal"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:3s2jc9hNhkQC",
+            "bib": {
+                "citation": "",
+                "title": "ThE PAPERS"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:oi8PhiKYDwsC",
+            "bib": {
+                "citation": "",
+                "title": "Network effects are critical for research collaborations"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:VFGfXyYpp08C",
+            "bib": {
+                "citation": "",
+                "title": "Freedom of Association, Social Cohesion and Welfare"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:rVBkUn48wTwC",
+            "bib": {
+                "citation": "",
+                "title": "Networks, Institutions and Long-term Development"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:V8JMcbNWlSUC",
+            "bib": {
+                "citation": "",
+                "title": "How researcher rankings and research funding instruments can gain from information about co-authorship networks"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:-cHHJ4ChvFsC",
+            "bib": {
+                "citation": "",
+                "title": "6 Fifth Spanish Meeting on Game Theory"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:52neCvzbxIwC",
+            "bib": {
+                "citation": "",
+                "title": "Financial Linkages, Portfolio Choice and Systemic Risk"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:ZppSRAJs3i8C",
+            "bib": {
+                "citation": "University of California, Berkeley 20, 12, 0",
+                "title": "Next Seminar"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:8cBNEdFwSQkC",
+            "bib": {
+                "citation": "",
+                "title": "Economic theory of collaboration networks"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:AHdEip9mkN0C",
+            "bib": {
+                "citation": "",
+                "title": "Small World Phenomenon"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:F1b5ZUV5XREC",
+            "bib": {
+                "citation": "",
+                "title": "Limited Attention and Organizational Specialization"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:JQOojiI6XY0C",
+            "bib": {
+                "citation": "",
+                "title": "Entry and Competition in Segmented Markets"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:dshw04ExmUIC",
+            "bib": {
+                "citation": "",
+                "title": "EC951: Network forms of organization"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:_xSYboBqXhAC",
+            "bib": {
+                "citation": "",
+                "title": "∗ Fernando Vega-Redondo† Preliminary version: June 2004"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:D03iK_w7-QYC",
+            "bib": {
+                "citation": "",
+                "title": "EC951: Property rights II: Formal Model"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:yD5IFk8b50cC",
+            "bib": {
+                "citation": "",
+                "title": "EC951: Property rights and the boundaries of the firm"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:dfsIfKJdRG4C",
+            "bib": {
+                "citation": "",
+                "title": "Network Resilience"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:zA6iFVUQeVQC",
+            "bib": {
+                "citation": "",
+                "title": "Network Formation with Heterogeneous Players"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        },
+        {
+            "author_pub_id": "RfNhTAMAAAAJ:NaGl4SEjCO4C",
+            "bib": {
+                "citation": "",
+                "title": "Bachelorstudiengang Wirtschaftswissenschaft"
+            },
+            "container_type": "Publication",
+            "filled": false,
+            "num_citations": 0,
+            "source": "AUTHOR_PUBLICATION_ENTRY"
+        }
+    ],
+    "scholar_id": "RfNhTAMAAAAJ",
+    "source": "AUTHOR_PROFILE_PAGE"
+}

@@ -1,0 +1,53 @@
+{
+    "author_pub_id": "RfNhTAMAAAAJ:u5HHmVD_uO8C",
+    "bib": {
+        "abstract": "We present an approach to network formation based on the notion that social networks are formed by individual decisions that trade off the costs of forming and maintaining links against the potential rewards from doing so. We suppose that a link with another agent allows access, in part and in due course, to the benefits available to the latter via his own links. Thus individual links generate externalities whose value depends on the level of decay/delay associated with indirect links. A distinctive aspect of our approach is that the costs of link formation are incurred only by the person who initiates the link. This allows us to formulate the network formation process as a noncooperative game. We first provide a characterization of the architecture of equilibrium networks. We then study the dynamics of network formation. We find that individual efforts to access benefits offered by others lead, rapidly, to the emergence of an …",
+        "author": "Venkatesh Bala and Sanjeev Goyal",
+        "citation": "Econometrica 68 (5), 1181-1229, 2000",
+        "journal": "Econometrica",
+        "number": "5",
+        "pages": "1181-1229",
+        "pub_year": 2000,
+        "publisher": "Blackwell Publishers Ltd",
+        "title": "A noncooperative model of network formation",
+        "volume": "68"
+    },
+    "citedby_url": "/scholar?hl=en&cites=2548011760067319176",
+    "cites_id": [
+        "2548011760067319176"
+    ],
+    "cites_per_year": {
+        "2000": 16,
+        "2001": 23,
+        "2002": 51,
+        "2003": 60,
+        "2004": 84,
+        "2005": 83,
+        "2006": 88,
+        "2007": 106,
+        "2008": 112,
+        "2009": 141,
+        "2010": 126,
+        "2011": 93,
+        "2012": 110,
+        "2013": 122,
+        "2014": 107,
+        "2015": 121,
+        "2016": 122,
+        "2017": 107,
+        "2018": 67,
+        "2019": 71,
+        "2020": 84,
+        "2021": 54,
+        "2022": 70,
+        "2023": 61,
+        "2024": 63,
+        "2025": 14
+    },
+    "container_type": "Publication",
+    "filled": true,
+    "num_citations": 2182,
+    "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1468-0262.00155",
+    "source": "AUTHOR_PUBLICATION_ENTRY",
+    "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:iJVUIjJbXCMJ:scholar.google.com/"
+}
