@@ -6,7 +6,7 @@ use crate::schema::researcher_card_threads::dsl::*;
 use crate::threads::models::{NewReplyComm, Reply};
 use crate::utils;
 use crate::utils::db::Connection;
-use crate::utils::tlv;
+use crate::utils::tlv::Tlv;
 use diesel::prelude::*;
 use rocket::http::Status;
 use rocket::serde::json::Json;
@@ -149,8 +149,10 @@ pub fn append_researcher_card_comment(
             });
 
         if let Ok(thread) = thread {
-            let replies = tlv::decode_replies(&thread.reply_data).unwrap_or_default();
-
+            let replies = match Reply::decode(&thread.reply_data) {
+                Ok(reply) => vec![reply],
+                Err(_) => vec![],
+            };
             // Check if parent_id exists in the replies
             if !replies.iter().any(|r| r.id == parent_id) {
                 eprintln!(
@@ -177,7 +179,7 @@ pub fn append_researcher_card_comment(
     };
 
     // Encode the reply as TLV
-    let tlv_data = match tlv::encode_reply(&reply) {
+    let tlv_data = match reply.encode() {
         Ok(tlv_data) => tlv_data,
         Err(_) => return Status::InternalServerError,
     };

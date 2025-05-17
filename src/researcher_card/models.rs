@@ -16,6 +16,8 @@ pub struct ResearcherCard {
     #[serde(default)]
     pub citedby: i32,
     #[serde(default)]
+    pub co_authors: Vec<String>,
+    #[serde(default)]
     pub email_domain: String,
     #[serde(default)]
     pub interests: Vec<String>,
@@ -72,6 +74,8 @@ pub struct NewResearcherCard {
     pub affiliation: String,
     pub name: String,
     #[serde(default)]
+    pub co_authors: Vec<String>,
+    #[serde(default)]
     pub citedby: i32,
     #[serde(default)]
     pub email_domain: String,
@@ -91,6 +95,7 @@ impl NewResearcherCard {
             google_scholar_id: google_scholar_pub_listed.google_scholar_id,
             affiliation: google_scholar_pub_listed.affiliation,
             name: google_scholar_pub_listed.name,
+            co_authors: google_scholar_pub_listed.co_authors,
             citedby: google_scholar_pub_listed.citedby,
             email_domain: google_scholar_pub_listed.email_domain,
             interests: google_scholar_pub_listed.interests,

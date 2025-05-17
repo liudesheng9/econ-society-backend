@@ -1,5 +1,5 @@
-use crate::threads::models::ReplyComm;
-use crate::utils::tlv;
+use crate::threads::models::{Reply, ReplyComm};
+use crate::utils::tlv::Tlv;
 use diesel::prelude::*;
 use serde::{Deserialize, Serialize};
 
@@ -40,7 +40,10 @@ pub struct ResearcherCardThreadWithRepliesComm {
 
 impl ResearcherCardThreadWithRepliesComm {
     pub fn from_database_thread(thread: &ResearcherCardThread) -> Self {
-        let replies = tlv::decode_replies(&thread.reply_data).unwrap_or_default();
+        let replies = match Reply::decode(&thread.reply_data) {
+            Ok(reply) => vec![reply],
+            Err(_) => vec![],
+        };
         let comm_replies = ReplyComm::from_replies(replies);
         Self {
             id: thread.id,

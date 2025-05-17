@@ -4,7 +4,7 @@ use crate::threads::models::{
 };
 use crate::utils;
 use crate::utils::db::Connection;
-use crate::utils::tlv;
+use crate::utils::tlv::Tlv;
 use anyhow::Result;
 use diesel::prelude::*;
 use rocket::http::Status;
@@ -103,7 +103,10 @@ pub fn append_comment(mut conn: Connection, new_reply_comm: Json<NewReplyComm>) 
             });
 
         if let Ok(thread) = thread {
-            let replies = tlv::decode_replies(&thread.reply_data).unwrap_or_default();
+            let replies = match Reply::decode(&thread.reply_data) {
+                Ok(reply) => vec![reply],
+                Err(_) => vec![],
+            };
 
             // Check if parent_id exists in the replies
             if !replies.iter().any(|r| r.id == parent_id) {
@@ -131,7 +134,7 @@ pub fn append_comment(mut conn: Connection, new_reply_comm: Json<NewReplyComm>) 
     };
 
     // Encode the reply as TLV
-    let tlv_data = match tlv::encode_reply(&reply) {
+    let tlv_data = match reply.encode() {
         Ok(data) => data,
         Err(_) => return Status::InternalServerError,
     };
@@ -162,11 +165,13 @@ pub fn get_thread(mut conn: Connection, id: i32) -> Result<Json<ThreadWithReplie
         .map_err(|_| Status::NotFound)?;
 
     // Decode the TLV data to get the replies
-    let internal_replies =
-        tlv::decode_replies(&thread.reply_data).map_err(|_| Status::InternalServerError)?;
+    let replies = match Reply::decode(&thread.reply_data) {
+        Ok(reply) => vec![reply],
+        Err(_) => vec![],
+    };
 
     // Convert internal Reply objects to ReplyComm objects for frontend communication
-    let comm_replies = ReplyComm::from_replies(internal_replies);
+    let comm_replies = ReplyComm::from_replies(replies);
 
     let thread_with_replies = ThreadWithRepliesComm {
         id: thread.id,

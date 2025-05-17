@@ -17,7 +17,8 @@ CREATE TABLE researcher_cards (
     interests TEXT[] NOT NULL,
     name TEXT NOT NULL,
     google_scholar_publication_ids TEXT[] NOT NULL,
-    google_scholar_id TEXT NOT NULL
+    google_scholar_id TEXT NOT NULL,
+    co_authors TEXT[] NOT NULL
 );
 
 CREATE TABLE researcher_card_threads (
@@ -30,3 +31,10 @@ CREATE TABLE researcher_card_threads (
     
 );
 
+CREATE TABLE current_users (
+    id SERIAL PRIMARY KEY,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL,
+    password TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

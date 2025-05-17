@@ -9,6 +9,7 @@ mod researcher_card;
 mod researcher_card_threads;
 mod schema;
 mod threads;
+mod user_login;
 mod utils;
 
 #[get("/")]
@@ -63,6 +64,8 @@ fn rocket() -> _ {
                 google_scholar::api_functions::google_scholar_endpoint,
                 google_scholar::api_functions::google_scholar_publication_endpoint,
                 google_scholar::api_functions::google_scholar_update_endpoint,
+                user_login::email_verify::send_verification_email,
+                user_login::email_verify::verify_email,
             ],
         )
         .attach(cors)

@@ -43,10 +43,10 @@ pub fn decode<T: serde::de::DeserializeOwned>(blob: &[u8], expected_type: u8) ->
     Ok(items)
 }
 
-pub fn encode_reply(reply: &Reply) -> Result<Vec<u8>> {
-    encode(REPLY_TYPE, reply)
-}
-
-pub fn decode_replies(blob: &[u8]) -> Result<Vec<Reply>> {
-    decode::<Reply>(blob, REPLY_TYPE)
+pub trait Tlv {
+    fn get_type() -> u8;
+    fn encode(&self) -> Result<Vec<u8>>;
+    fn decode(data: &[u8]) -> Result<Self>
+    where
+        Self: Sized;
 }

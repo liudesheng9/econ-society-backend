@@ -1,5 +1,11 @@
+use crate::utils::tlv;
+use crate::utils::tlv::Tlv;
+use anyhow::Result;
 use diesel::prelude::*;
 use serde::{Deserialize, Serialize};
+
+const REPLY_TYPE: u8 = 1;
+
 #[derive(Queryable, Insertable, Serialize, Selectable)]
 #[diesel(table_name = crate::schema::threads)]
 pub struct Thread {
@@ -72,5 +78,18 @@ impl ReplyComm {
     // Convert a vector of Reply objects to a vector of ReplyComm objects
     pub fn from_replies(replies: Vec<Reply>) -> Vec<Self> {
         replies.into_iter().map(Self::from_reply).collect()
+    }
+}
+
+impl Tlv for Reply {
+    fn get_type() -> u8 {
+        REPLY_TYPE
+    }
+    fn encode(&self) -> Result<Vec<u8>> {
+        crate::utils::tlv::encode(REPLY_TYPE, self)
+    }
+    fn decode(data: &[u8]) -> Result<Self> {
+        let decoded = crate::utils::tlv::decode(data, REPLY_TYPE)?;
+        Ok(decoded.into_iter().next().unwrap())
     }
 }

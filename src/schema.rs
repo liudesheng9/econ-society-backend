@@ -21,6 +21,7 @@ diesel::table! {
         name -> Text,
         google_scholar_publication_ids -> Array<Text>,
         google_scholar_id -> Text,
+        co_authors -> Array<Text>,
     }
 }
 
@@ -32,5 +33,15 @@ diesel::table! {
         time -> Timestamp,
         reply_data -> Bytea,
         researcher_id -> Int4,
+    }
+}
+
+diesel::table! {
+    current_users (id) {
+        id -> Int4,
+        name -> Text,
+        email -> Text,
+        password -> Text,
+        created_at -> Timestamp,
     }
 }
