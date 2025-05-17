@@ -1,7 +1,7 @@
-use crate::db::Connection;
-use crate::google_scholar::model::GoogleScholarPubListed;
-use crate::models::ResearcherCardThread;
+use crate::google_scholar::models::GoogleScholarPubListed;
+use crate::researcher_card_threads::models::ResearcherCardThread;
 use crate::schema::researcher_card_threads::dsl::*;
+use crate::utils::db::Connection;
 use diesel::prelude::*;
 use rocket::http::Status;
 use serde::{Deserialize, Serialize};

@@ -7,10 +7,12 @@ pub struct GoogleScholar {
     pub affiliation: String,
     pub citedby: i32,
     pub container_type: String,
+    #[serde(default)]
     pub email_domain: String,
     pub filled: Vec<String>,
     pub interests: Vec<String>,
     pub name: String,
+    #[serde(default)]
     pub organization: i128,
     pub publications: Vec<PublicationNoFilled>,
     pub scholar_id: String,
@@ -35,7 +37,7 @@ pub struct GoogleScholarPubListed {
 }
 
 impl GoogleScholarPubListed {
-    pub fn from_GoogleScholar(google_scholar: GoogleScholar) -> Self {
+    pub fn from_google_scholar(google_scholar: GoogleScholar) -> Self {
         let mut publication_ids = Vec::new();
         for publication in google_scholar.publications {
             publication_ids.push(publication.get_author_pub_id());

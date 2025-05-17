@@ -4,29 +4,12 @@ use dotenvy::dotenv;
 use rocket::http::Method;
 use rocket_cors::{AllowedHeaders, AllowedOrigins, CorsOptions};
 
-mod api;
-mod db;
 mod google_scholar;
-mod models;
+mod researcher_card;
+mod researcher_card_threads;
 mod schema;
-mod snowflake;
-mod tlv;
+mod threads;
 mod utils;
-
-use api::{
-    append_comment, create_thread, get_thread, list_threads_ids,
-    researcher_card::{
-        create_researcher_card, get_all_researcher_cards, get_researcher_card,
-        get_researcher_card_ids, update_researcher_card,
-    },
-    researcher_card_threads::{
-        append_researcher_card_comment, get_researcher_card_thread, get_researcher_card_thread_ids,
-        get_researcher_card_threads,
-    },
-};
-use google_scholar::{
-    google_scholar_endpoint, google_scholar_publication_endpoint, google_scholar_update_endpoint,
-};
 
 #[get("/")]
 fn index() -> &'static str {
@@ -59,27 +42,27 @@ fn rocket() -> _ {
 
     // Mount the routes
     rocket::build()
-        .manage(db::establish_connection())
+        .manage(utils::db::establish_connection())
         .mount("/", routes![index])
         .mount(
             "/api",
             routes![
-                create_thread,
-                list_threads_ids,
-                append_comment,
-                get_thread,
-                create_researcher_card,
-                get_researcher_card,
-                update_researcher_card,
-                google_scholar_endpoint,
-                google_scholar_publication_endpoint,
-                get_all_researcher_cards,
-                google_scholar_update_endpoint,
-                get_researcher_card_thread,
-                get_researcher_card_threads,
-                append_researcher_card_comment,
-                get_researcher_card_thread_ids,
-                get_researcher_card_ids,
+                threads::api_functions::create_thread,
+                threads::api_functions::list_threads_ids,
+                threads::api_functions::append_comment,
+                threads::api_functions::get_thread,
+                researcher_card::api_functions::create_researcher_card,
+                researcher_card::api_functions::get_researcher_card,
+                researcher_card::api_functions::update_researcher_card,
+                researcher_card::api_functions::get_all_researcher_cards,
+                researcher_card_threads::api_functions::get_researcher_card_thread,
+                researcher_card_threads::api_functions::get_researcher_card_threads,
+                researcher_card_threads::api_functions::append_researcher_card_comment,
+                researcher_card_threads::api_functions::get_researcher_card_thread_ids,
+                researcher_card::api_functions::get_researcher_card_ids,
+                google_scholar::api_functions::google_scholar_endpoint,
+                google_scholar::api_functions::google_scholar_publication_endpoint,
+                google_scholar::api_functions::google_scholar_update_endpoint,
             ],
         )
         .attach(cors)

@@ -1,13 +1,12 @@
-use crate::api::researcher_card::whether_card_is_exist;
-use crate::db::Connection;
-use crate::models::{
-    NewReplyComm, NewResearcherCardThread, Reply, ReplyComm, ResearcherCardThread,
-    ResearcherCardThreadWithRepliesComm,
+use crate::researcher_card::api_functions::whether_card_is_exist;
+use crate::researcher_card_threads::models::{
+    NewResearcherCardThread, ResearcherCardThread, ResearcherCardThreadWithRepliesComm,
 };
 use crate::schema::researcher_card_threads::dsl::*;
-use crate::snowflake;
-use crate::tlv;
+use crate::threads::models::{NewReplyComm, Reply};
 use crate::utils;
+use crate::utils::db::Connection;
+use crate::utils::tlv;
 use diesel::prelude::*;
 use rocket::http::Status;
 use rocket::serde::json::Json;
@@ -167,7 +166,7 @@ pub fn append_researcher_card_comment(
 
     // Generate a unique ID using the Snowflake algorithm
     let node_id = NODE_ID.load(Ordering::SeqCst);
-    let reply_id = snowflake::generate_snowflake_id(node_id);
+    let reply_id = utils::snowflake::generate_snowflake_id(node_id);
 
     // Create the reply with the Snowflake ID
     let reply = Reply {
@@ -185,10 +184,11 @@ pub fn append_researcher_card_comment(
 
     // Use a raw SQL query with binary concatenation operator to append data without fetching
     // This uses the PostgreSQL-specific concatenation operator for binary data
-    let query =
-        diesel::sql_query("UPDATE researcher_card_threads SET data = data || $1 WHERE id = $2")
-            .bind::<diesel::sql_types::Binary, _>(&tlv_data)
-            .bind::<diesel::sql_types::Integer, _>(thread_id);
+    let query = diesel::sql_query(
+        "UPDATE researcher_card_threads SET reply_data = reply_data || $1 WHERE id = $2",
+    )
+    .bind::<diesel::sql_types::Binary, _>(&tlv_data)
+    .bind::<diesel::sql_types::Integer, _>(thread_id);
 
     // Execute the query
     match query.execute(&mut conn.0) {

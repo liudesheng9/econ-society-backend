@@ -3,7 +3,7 @@ use bincode;
 use serde;
 use std::io::{Cursor, Read};
 
-use crate::models::Reply;
+use crate::threads::models::Reply;
 
 const REPLY_TYPE: u8 = 1;
 

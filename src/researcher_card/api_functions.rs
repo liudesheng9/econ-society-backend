@@ -1,9 +1,9 @@
-use crate::api::model::{NewResearcherCard, ResearcherCard, ResearcherCardComm};
-use crate::api::researcher_card_threads::create_researcher_card_thread;
-use crate::db::Connection;
-use crate::models::NewResearcherCardThread;
+use crate::researcher_card::models::{NewResearcherCard, ResearcherCard, ResearcherCardComm};
+use crate::researcher_card_threads::api_functions::create_researcher_card_thread;
+use crate::researcher_card_threads::models::NewResearcherCardThread;
 use crate::schema::researcher_cards;
 use crate::utils;
+use crate::utils::db::Connection;
 use diesel::prelude::*;
 use rocket::http::Status;
 use rocket::serde::json::Json;

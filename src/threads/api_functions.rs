@@ -1,21 +1,15 @@
-use crate::db::Connection;
-use crate::models::{
-    NewReply, NewReplyComm, NewThread, Reply, ReplyComm, Thread, ThreadWithRepliesComm,
-};
 use crate::schema::threads;
-use crate::snowflake;
-use crate::tlv;
+use crate::threads::models::{
+    NewReplyComm, NewThread, Reply, ReplyComm, Thread, ThreadWithRepliesComm,
+};
 use crate::utils;
+use crate::utils::db::Connection;
+use crate::utils::tlv;
 use anyhow::Result;
 use diesel::prelude::*;
 use rocket::http::Status;
 use rocket::serde::json::Json;
 use std::sync::atomic::{AtomicU16, Ordering};
-
-pub mod model;
-pub mod researcher_card;
-pub mod researcher_card_threads;
-pub mod room;
 
 // Node ID for Snowflake generation
 static NODE_ID: AtomicU16 = AtomicU16::new(1);
@@ -126,7 +120,7 @@ pub fn append_comment(mut conn: Connection, new_reply_comm: Json<NewReplyComm>) 
 
     // Generate a unique ID using the Snowflake algorithm
     let node_id = NODE_ID.load(Ordering::SeqCst);
-    let reply_id = snowflake::generate_snowflake_id(node_id);
+    let reply_id = utils::snowflake::generate_snowflake_id(node_id);
 
     // Create the reply with the Snowflake ID
     let reply = Reply {
