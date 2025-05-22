@@ -3,8 +3,6 @@ use bincode;
 use serde;
 use std::io::{Cursor, Read};
 
-use crate::threads::models::Reply;
-
 const REPLY_TYPE: u8 = 1;
 
 pub fn encode<T: serde::Serialize>(value_type: u8, data: &T) -> Result<Vec<u8>> {
@@ -46,7 +44,7 @@ pub fn decode<T: serde::de::DeserializeOwned>(blob: &[u8], expected_type: u8) ->
 pub trait Tlv {
     fn get_type() -> u8;
     fn encode(&self) -> Result<Vec<u8>>;
-    fn decode(data: &[u8]) -> Result<Self>
+    fn decode(data: &[u8]) -> Result<Vec<Self>>
     where
         Self: Sized;
 }

@@ -4,7 +4,10 @@ use dotenvy::dotenv;
 use rocket::http::Method;
 use rocket_cors::{AllowedHeaders, AllowedOrigins, CorsOptions};
 
+mod comm_type;
+mod email;
 mod google_scholar;
+mod rds_mutate;
 mod researcher_card;
 mod researcher_card_threads;
 mod schema;
@@ -18,7 +21,7 @@ fn index() -> &'static str {
 }
 
 #[launch]
-fn rocket() -> _ {
+async fn rocket() -> _ {
     dotenv().ok();
 
     // Configure CORS
@@ -41,9 +44,13 @@ fn rocket() -> _ {
         .to_cors()
         .expect("CORS configuration error");
 
+    let pg_pool = utils::db::establish_connection();
+    let rds_conn = utils::rds_conn::init_rds_client().await;
+
     // Mount the routes
     rocket::build()
-        .manage(utils::db::establish_connection())
+        .manage(pg_pool)
+        .manage(rds_conn)
         .mount("/", routes![index])
         .mount(
             "/api",
@@ -64,8 +71,9 @@ fn rocket() -> _ {
                 google_scholar::api_functions::google_scholar_endpoint,
                 google_scholar::api_functions::google_scholar_publication_endpoint,
                 google_scholar::api_functions::google_scholar_update_endpoint,
-                user_login::email_verify::send_verification_email,
-                user_login::email_verify::verify_email,
+                user_login::auth::user_registor,
+                user_login::auth::user_verify_email,
+                user_login::login::user_login,
             ],
         )
         .attach(cors)

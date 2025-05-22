@@ -1,9 +1,9 @@
 use crate::researcher_card::api_functions::whether_card_is_exist;
 use crate::researcher_card_threads::models::{
-    NewResearcherCardThread, ResearcherCardThread, ResearcherCardThreadWithRepliesComm,
+    NewResearcherCardThread, ResearcherCardThread, ResearcherCardThreadWithReplies,
 };
 use crate::schema::researcher_card_threads::dsl::*;
-use crate::threads::models::{NewReplyComm, Reply};
+use crate::threads::models::{NewReply, Reply};
 use crate::utils;
 use crate::utils::db::Connection;
 use crate::utils::tlv::Tlv;
@@ -62,14 +62,14 @@ pub fn create_researcher_card_thread(
 #[get("/threads/researcher_card")]
 pub fn get_researcher_card_threads(
     mut conn: Connection,
-) -> Result<Json<Vec<ResearcherCardThreadWithRepliesComm>>, Status> {
+) -> Result<Json<Vec<ResearcherCardThreadWithReplies>>, Status> {
     let threads = researcher_card_threads
         .load::<ResearcherCardThread>(&mut conn.0)
         .map_err(|_| Status::InternalServerError)?;
     let threads_with_replies = threads
         .iter()
-        .map(|thread| ResearcherCardThreadWithRepliesComm::from_database_thread(thread))
-        .collect::<Vec<ResearcherCardThreadWithRepliesComm>>();
+        .map(|thread| ResearcherCardThreadWithReplies::from_database_thread(thread))
+        .collect::<Vec<ResearcherCardThreadWithReplies>>();
     Ok(Json(threads_with_replies))
 }
 
@@ -86,7 +86,7 @@ pub fn get_researcher_card_thread_ids(mut conn: Connection) -> Result<Json<Vec<i
 pub fn get_researcher_card_thread(
     mut conn: Connection,
     thread_id: i32,
-) -> Result<Json<ResearcherCardThreadWithRepliesComm>, Status> {
+) -> Result<Json<ResearcherCardThreadWithReplies>, Status> {
     // check whether the thread is exist
     if !whether_researcher_card_thread_is_exist(&mut conn, thread_id)? {
         return Err(Status::NotFound);
@@ -96,33 +96,16 @@ pub fn get_researcher_card_thread(
         .find(thread_id)
         .first::<ResearcherCardThread>(&mut conn.0)
         .map_err(|_| Status::InternalServerError)?;
-    let thread_with_replies = ResearcherCardThreadWithRepliesComm::from_database_thread(&thread);
+    let thread_with_replies = ResearcherCardThreadWithReplies::from_database_thread(&thread);
 
     Ok(Json(thread_with_replies))
 }
-#[post(
-    "/comments/researcher_card",
-    format = "json",
-    data = "<new_reply_comm>"
-)]
-pub fn append_researcher_card_comment(
-    mut conn: Connection,
-    new_reply_comm: Json<NewReplyComm>,
-) -> Status {
+#[post("/comments/researcher_card", format = "json", data = "<new_reply>")]
+pub fn append_researcher_card_comment(mut conn: Connection, new_reply: Json<NewReply>) -> Status {
     // Get the thread from the new_reply
-    let thread_id = new_reply_comm.thread_id;
+    let thread_id = new_reply.thread_id;
 
-    // Convert parent_id from Option<String> to Option<i64>
-    let parent_id = match &new_reply_comm.parent_id {
-        Some(id_str) => match id_str.parse::<i64>() {
-            Ok(parsed_id) => Some(parsed_id),
-            Err(_) => {
-                eprintln!("Invalid parent_id format: {}", id_str);
-                return Status::BadRequest;
-            }
-        },
-        None => None,
-    };
+    let parent_id = new_reply.parent_id.clone();
 
     // Check if the thread exists
     if diesel::dsl::select(diesel::dsl::exists(
@@ -150,7 +133,7 @@ pub fn append_researcher_card_comment(
 
         if let Ok(thread) = thread {
             let replies = match Reply::decode(&thread.reply_data) {
-                Ok(reply) => vec![reply],
+                Ok(replies) => replies,
                 Err(_) => vec![],
             };
             // Check if parent_id exists in the replies
@@ -173,8 +156,8 @@ pub fn append_researcher_card_comment(
     // Create the reply with the Snowflake ID
     let reply = Reply {
         id: reply_id,
-        parent_id,
-        content: new_reply_comm.content.clone(),
+        parent_id: new_reply.parent_id.clone(),
+        content: new_reply.content.clone(),
         time: utils::time::get_current_time(),
     };
 

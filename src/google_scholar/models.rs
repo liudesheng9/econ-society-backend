@@ -7,7 +7,8 @@ pub struct GoogleScholar {
     pub affiliation: String,
     pub citedby: i32,
     pub container_type: String,
-    pub co_authors: Vec<String>,
+    #[serde(default)]
+    pub coauthors: Vec<String>,
     #[serde(default)]
     pub email_domain: String,
     pub filled: Vec<String>,
@@ -26,7 +27,7 @@ pub struct GoogleScholarPubListed {
     #[serde(default)]
     pub citedby: i32,
     #[serde(default)]
-    pub co_authors: Vec<String>,
+    pub coauthors: Vec<String>,
     #[serde(default)]
     pub email_domain: String,
     #[serde(default)]
@@ -48,7 +49,7 @@ impl GoogleScholarPubListed {
         Self {
             affiliation: google_scholar.affiliation,
             citedby: google_scholar.citedby,
-            co_authors: google_scholar.co_authors,
+            coauthors: google_scholar.coauthors,
             email_domain: google_scholar.email_domain,
             interests: google_scholar.interests,
             name: google_scholar.name,

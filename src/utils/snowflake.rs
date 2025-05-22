@@ -1,3 +1,4 @@
+use base64::{engine::general_purpose::URL_SAFE, Engine as _};
 use std::sync::atomic::{AtomicU16, Ordering};
 use std::time::{SystemTime, UNIX_EPOCH};
 
@@ -12,8 +13,7 @@ static SEQUENCE: AtomicU16 = AtomicU16::new(0);
 // Generate a unique snowflake ID based on:
 // - 41 bits: timestamp (milliseconds since custom epoch)
 // - 10 bits: node ID (can be configured for distributed systems)
-// - 12 bits: sequence number (incremented for IDs generated in the same millisecond)
-pub fn generate_snowflake_id(node_id: u16) -> i64 {
+pub fn generate_snowflake_id(node_id: u16) -> String {
     // Make sure node_id is within valid range
     let node_id = node_id & ((1 << NODE_ID_BITS) - 1);
 
@@ -34,5 +34,7 @@ pub fn generate_snowflake_id(node_id: u16) -> i64 {
         | ((node_id as u64) << SEQUENCE_BITS)
         | (sequence as u64)) as i64;
 
-    snowflake_id
+    let bytes = snowflake_id.to_be_bytes();
+    let base64_str = URL_SAFE.encode(bytes);
+    base64_str
 }

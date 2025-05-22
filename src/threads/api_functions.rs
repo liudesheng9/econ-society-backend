@@ -1,7 +1,5 @@
 use crate::schema::threads;
-use crate::threads::models::{
-    NewReplyComm, NewThread, Reply, ReplyComm, Thread, ThreadWithRepliesComm,
-};
+use crate::threads::models::{NewReply, NewThread, Reply, Thread, ThreadWithReplies};
 use crate::utils;
 use crate::utils::db::Connection;
 use crate::utils::tlv::Tlv;
@@ -60,22 +58,10 @@ pub fn list_threads_ids(mut conn: Connection) -> Result<Json<Vec<i32>>, Status> 
     Ok(Json(thread_ids))
 }
 
-#[post("/comments", format = "json", data = "<new_reply_comm>")]
-pub fn append_comment(mut conn: Connection, new_reply_comm: Json<NewReplyComm>) -> Status {
+#[post("/comments", format = "json", data = "<new_reply>")]
+pub fn append_comment(mut conn: Connection, new_reply: Json<NewReply>) -> Status {
     // Get the thread from the new_reply
-    let thread_id = new_reply_comm.thread_id;
-
-    // Convert parent_id from Option<String> to Option<i64>
-    let parent_id = match &new_reply_comm.parent_id {
-        Some(id_str) => match id_str.parse::<i64>() {
-            Ok(id) => Some(id),
-            Err(_) => {
-                eprintln!("Invalid parent_id format: {}", id_str);
-                return Status::BadRequest;
-            }
-        },
-        None => None,
-    };
+    let thread_id = new_reply.thread_id;
 
     // Check if the thread exists
     if diesel::dsl::select(diesel::dsl::exists(
@@ -88,6 +74,8 @@ pub fn append_comment(mut conn: Connection, new_reply_comm: Json<NewReplyComm>) 
         eprintln!("Thread with ID {} not found", thread_id);
         return Status::NotFound;
     }
+
+    let parent_id = new_reply.parent_id.clone();
 
     // Validate parent_id
     // For thread-level replies, parent_id should be None
@@ -103,9 +91,13 @@ pub fn append_comment(mut conn: Connection, new_reply_comm: Json<NewReplyComm>) 
             });
 
         if let Ok(thread) = thread {
-            let replies = match Reply::decode(&thread.reply_data) {
-                Ok(reply) => vec![reply],
-                Err(_) => vec![],
+            let replies = if thread.reply_data.is_empty() {
+                vec![]
+            } else {
+                match Reply::decode(&thread.reply_data) {
+                    Ok(reply) => reply,
+                    Err(_) => vec![],
+                }
             };
 
             // Check if parent_id exists in the replies
@@ -128,8 +120,8 @@ pub fn append_comment(mut conn: Connection, new_reply_comm: Json<NewReplyComm>) 
     // Create the reply with the Snowflake ID
     let reply = Reply {
         id: reply_id,
-        parent_id,
-        content: new_reply_comm.content.clone(),
+        parent_id: new_reply.parent_id.clone(),
+        content: new_reply.content.clone(),
         time: utils::time::get_current_time(),
     };
 
@@ -156,7 +148,7 @@ pub fn append_comment(mut conn: Connection, new_reply_comm: Json<NewReplyComm>) 
 }
 
 #[get("/thread/<id>")]
-pub fn get_thread(mut conn: Connection, id: i32) -> Result<Json<ThreadWithRepliesComm>, Status> {
+pub fn get_thread(mut conn: Connection, id: i32) -> Result<Json<ThreadWithReplies>, Status> {
     // Get the thread from the database
     let thread = threads::table
         .find(id)
@@ -165,19 +157,20 @@ pub fn get_thread(mut conn: Connection, id: i32) -> Result<Json<ThreadWithReplie
         .map_err(|_| Status::NotFound)?;
 
     // Decode the TLV data to get the replies
-    let replies = match Reply::decode(&thread.reply_data) {
-        Ok(reply) => vec![reply],
-        Err(_) => vec![],
+    let replies = if thread.reply_data.is_empty() {
+        vec![]
+    } else {
+        match Reply::decode(&thread.reply_data) {
+            Ok(reply) => reply,
+            Err(_) => vec![],
+        }
     };
 
-    // Convert internal Reply objects to ReplyComm objects for frontend communication
-    let comm_replies = ReplyComm::from_replies(replies);
-
-    let thread_with_replies = ThreadWithRepliesComm {
+    let thread_with_replies = ThreadWithReplies {
         id: thread.id,
         title: thread.title,
         content: thread.content,
-        replies: comm_replies,
+        replies: replies,
         time: thread.time,
     };
 

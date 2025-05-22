@@ -21,7 +21,7 @@ diesel::table! {
         name -> Text,
         google_scholar_publication_ids -> Array<Text>,
         google_scholar_id -> Text,
-        co_authors -> Array<Text>,
+        coauthors -> Array<Text>,
     }
 }
 

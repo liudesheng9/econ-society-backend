@@ -101,8 +101,12 @@ pub async fn google_scholar_update_endpoint(
 ) -> Result<Json<ResearcherCard>, Status> {
     let scholar = get_google_scholar(scholar_id).await?;
 
-    let scholar = scholar.left().unwrap();
-    let scholar_publisted = GoogleScholarPubListed::from_google_scholar(scholar.0);
+    let scholar = match scholar {
+        Either::Left(scholar) => scholar.0,
+        Either::Right(_) => return Err(Status::NotFound),
+    };
+
+    let scholar_publisted = GoogleScholarPubListed::from_google_scholar(scholar);
     let newresearcher_card = NewResearcherCard::from_google_scholar_pub_listed(scholar_publisted);
 
     // Check if researcher with this Google Scholar ID already exists
