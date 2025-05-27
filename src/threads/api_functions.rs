@@ -1,7 +1,10 @@
-use crate::schema::threads;
+use crate::comm_type::models::CommInWrapper;
+use crate::rds_mutate::user_token;
+use crate::schema::{current_users, threads};
 use crate::threads::models::{NewReply, NewThread, Reply, Thread, ThreadWithReplies};
 use crate::utils;
 use crate::utils::db::Connection;
+use crate::utils::rds_conn::RdsConn;
 use crate::utils::tlv::Tlv;
 use anyhow::Result;
 use diesel::prelude::*;
@@ -13,21 +16,46 @@ use std::sync::atomic::{AtomicU16, Ordering};
 static NODE_ID: AtomicU16 = AtomicU16::new(1);
 
 #[post("/threads", format = "json", data = "<new_thread>")]
-pub fn create_thread(
+pub async fn create_thread(
+    rds_conn: RdsConn,
     mut conn: Connection,
-    new_thread: Json<NewThread>,
-) -> Result<Json<Thread>, Status> {
+    new_thread: Json<CommInWrapper<NewThread>>,
+) -> Result<Status, Status> {
     // Create a new thread with an empty data blob
     use crate::schema::threads::dsl::*;
 
+    // Get the user hash from the new_thread
+    let user_hash = new_thread.get_user_hash();
+
+    let user_cache_id = user_token::get_user_by_token(rds_conn, user_hash).await?;
+    let user_cache_id = user_cache_id.ok_or(Status::Unauthorized)?;
+
+    let user_id_int = user_cache_id.parse::<i32>().map_err(|_| {
+        eprintln!("Failed to parse user_id to i32");
+        Status::InternalServerError
+    })?;
+
+    //check if user id exists
+    if !diesel::dsl::select(diesel::dsl::exists(
+        current_users::table.filter(current_users::id.eq(user_id_int)),
+    ))
+    .get_result::<bool>(&mut conn.0)
+    .unwrap_or(false)
+    {
+        return Err(Status::NotFound);
+    }
+
+    let new_thread = new_thread.get_data();
+
     // Insert the thread into the database using a query that omits the id field
-    let thread = diesel::insert_into(threads)
+    let _ = diesel::insert_into(threads)
         .values((
             title.eq(&new_thread.title),
             content.eq(&new_thread.content),
             reply_data.eq(Vec::<u8>::new()),
             room_id.eq(&new_thread.room_id),
             time.eq(utils::time::get_current_time()),
+            user_id.eq(&user_id_int),
         ))
         .returning(Thread::as_select())
         .get_result(&mut conn.0)
@@ -36,7 +64,7 @@ pub fn create_thread(
             Status::InternalServerError
         })?;
 
-    Ok(Json(thread))
+    Ok(Status::Created)
 }
 
 #[get("/threads")]
@@ -59,8 +87,34 @@ pub fn list_threads_ids(mut conn: Connection) -> Result<Json<Vec<i32>>, Status> 
 }
 
 #[post("/comments", format = "json", data = "<new_reply>")]
-pub fn append_comment(mut conn: Connection, new_reply: Json<NewReply>) -> Status {
+pub async fn append_comment(
+    rds_conn: RdsConn,
+    mut conn: Connection,
+    new_reply: Json<CommInWrapper<NewReply>>,
+) -> Result<Status, Status> {
+    // Get the user hash from the new_reply
+    let user_hash = new_reply.get_user_hash();
+
+    let user_cache_id = user_token::get_user_by_token(rds_conn, user_hash).await?;
+    let user_cache_id = user_cache_id.ok_or(Status::Unauthorized)?;
+
+    let user_id_int = user_cache_id.parse::<i32>().map_err(|_| {
+        eprintln!("Failed to parse user_id to i32");
+        Status::InternalServerError
+    })?;
+
+    //check if user id exists
+    if !diesel::dsl::select(diesel::dsl::exists(
+        current_users::table.filter(current_users::id.eq(user_id_int)),
+    ))
+    .get_result::<bool>(&mut conn.0)
+    .unwrap_or(false)
+    {
+        return Err(Status::NotFound);
+    }
+
     // Get the thread from the new_reply
+    let new_reply = new_reply.get_data();
     let thread_id = new_reply.thread_id;
 
     // Check if the thread exists
@@ -72,7 +126,7 @@ pub fn append_comment(mut conn: Connection, new_reply: Json<NewReply>) -> Status
         == false
     {
         eprintln!("Thread with ID {} not found", thread_id);
-        return Status::NotFound;
+        return Err(Status::NotFound);
     }
 
     let parent_id = new_reply.parent_id.clone();
@@ -106,10 +160,10 @@ pub fn append_comment(mut conn: Connection, new_reply: Json<NewReply>) -> Status
                     "Parent reply with ID {} not found in thread {}",
                     parent_id, thread_id
                 );
-                return Status::NotFound;
+                return Err(Status::NotFound);
             }
         } else {
-            return Status::InternalServerError;
+            return Err(Status::InternalServerError);
         }
     }
 
@@ -122,13 +176,14 @@ pub fn append_comment(mut conn: Connection, new_reply: Json<NewReply>) -> Status
         id: reply_id,
         parent_id: new_reply.parent_id.clone(),
         content: new_reply.content.clone(),
+        user_id: user_id_int,
         time: utils::time::get_current_time(),
     };
 
     // Encode the reply as TLV
     let tlv_data = match reply.encode() {
         Ok(data) => data,
-        Err(_) => return Status::InternalServerError,
+        Err(_) => return Err(Status::InternalServerError),
     };
 
     // Use a raw SQL query with binary concatenation operator to append data without fetching
@@ -139,10 +194,10 @@ pub fn append_comment(mut conn: Connection, new_reply: Json<NewReply>) -> Status
 
     // Execute the query
     match query.execute(&mut conn.0) {
-        Ok(_) => Status::Created,
+        Ok(_) => Ok(Status::Created),
         Err(e) => {
             eprintln!("Error appending comment: {}", e);
-            Status::InternalServerError
+            Err(Status::InternalServerError)
         }
     }
 }
@@ -171,6 +226,7 @@ pub fn get_thread(mut conn: Connection, id: i32) -> Result<Json<ThreadWithReplie
         title: thread.title,
         content: thread.content,
         replies: replies,
+        user_id: thread.user_id,
         time: thread.time,
     };
 

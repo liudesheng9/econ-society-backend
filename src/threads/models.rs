@@ -14,6 +14,7 @@ pub struct Thread {
     pub time: chrono::NaiveDateTime,
     pub reply_data: Vec<u8>, // Bytea maps to Vec<u8>
     pub room_id: i32,
+    pub user_id: i32,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -22,6 +23,7 @@ pub struct Reply {
     pub parent_id: Option<String>,
     pub content: String,
     pub time: chrono::NaiveDateTime,
+    pub user_id: i32,
 }
 
 #[derive(Deserialize)]
@@ -38,6 +40,7 @@ pub struct ThreadWithReplies {
     pub content: String,
     pub time: chrono::NaiveDateTime,
     pub replies: Vec<Reply>,
+    pub user_id: i32,
 }
 
 #[derive(Deserialize, Debug)]

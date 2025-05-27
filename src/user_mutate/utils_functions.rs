@@ -1,5 +1,5 @@
 use crate::schema::current_users::dsl::*;
-use crate::user_login::models::{CurrentUser, NewCurrentUser};
+use crate::user_mutate::models::{CurrentUser, NewCurrentUser};
 use crate::utils::db::Connection;
 use crate::utils::time::get_current_time;
 use diesel::prelude::*;

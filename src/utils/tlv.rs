@@ -3,8 +3,6 @@ use bincode;
 use serde;
 use std::io::{Cursor, Read};
 
-const REPLY_TYPE: u8 = 1;
-
 pub fn encode<T: serde::Serialize>(value_type: u8, data: &T) -> Result<Vec<u8>> {
     // Serialize the data to binary
     let value = bincode::serialize(data)?;

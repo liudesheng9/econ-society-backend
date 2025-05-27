@@ -3,3 +3,4 @@
 DROP TABLE threads
 DROP TABLE researcher_cards
 DROP TABLE researcher_card_threads
+DROP TABLE current_users

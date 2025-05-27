@@ -6,7 +6,8 @@ CREATE TABLE threads (
     content TEXT NOT NULL,
     room_id INTEGER NOT NULL,
     time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    reply_data BYTEA NOT NULL DEFAULT ''
+    reply_data BYTEA NOT NULL DEFAULT '',
+    user_id INTEGER NOT NULL
 );
 
 CREATE TABLE researcher_cards (

@@ -8,6 +8,7 @@ diesel::table! {
         reply_data -> Bytea,
         room_id -> Int4,
         time -> Timestamp,
+        user_id -> Int4,
     }
 }
 

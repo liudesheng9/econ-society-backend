@@ -1,11 +1,14 @@
+use crate::comm_type::models::CommInWrapper;
+use crate::rds_mutate::user_token::get_user_by_token;
 use crate::researcher_card::api_functions::whether_card_is_exist;
 use crate::researcher_card_threads::models::{
     NewResearcherCardThread, ResearcherCardThread, ResearcherCardThreadWithReplies,
 };
-use crate::schema::researcher_card_threads::dsl::*;
+use crate::schema;
 use crate::threads::models::{NewReply, Reply};
 use crate::utils;
 use crate::utils::db::Connection;
+use crate::utils::rds_conn::RdsConn;
 use crate::utils::tlv::Tlv;
 use diesel::prelude::*;
 use rocket::http::Status;
@@ -18,7 +21,7 @@ pub fn whether_researcher_card_thread_is_exist(
     conn: &mut Connection,
     thread_id: i32,
 ) -> Result<bool, Status> {
-    let _ = researcher_card_threads
+    let _ = schema::researcher_card_threads::table
         .find(thread_id)
         .first::<ResearcherCardThread>(&mut conn.0)
         .map_err(|_| Status::InternalServerError)?;
@@ -35,8 +38,8 @@ pub fn create_researcher_card_thread(
     }
 
     //check if there is another researcher thread use the same researcher card
-    if researcher_card_threads
-        .filter(researcher_id.eq(new_thread.researcher_id))
+    if schema::researcher_card_threads::table
+        .filter(schema::researcher_card_threads::researcher_id.eq(new_thread.researcher_id))
         .first::<ResearcherCardThread>(&mut conn.0)
         .is_ok()
     {
@@ -47,7 +50,7 @@ pub fn create_researcher_card_thread(
     new_thread.time = utils::time::get_current_time();
 
     // Create a new thread with an empty data blob
-    let thread = diesel::insert_into(researcher_card_threads)
+    let thread = diesel::insert_into(schema::researcher_card_threads::table)
         .values(&*new_thread)
         .returning(ResearcherCardThread::as_select())
         .get_result(&mut conn.0)
@@ -63,7 +66,7 @@ pub fn create_researcher_card_thread(
 pub fn get_researcher_card_threads(
     mut conn: Connection,
 ) -> Result<Json<Vec<ResearcherCardThreadWithReplies>>, Status> {
-    let threads = researcher_card_threads
+    let threads = schema::researcher_card_threads::table
         .load::<ResearcherCardThread>(&mut conn.0)
         .map_err(|_| Status::InternalServerError)?;
     let threads_with_replies = threads
@@ -75,7 +78,7 @@ pub fn get_researcher_card_threads(
 
 #[get("/threads/researcher_card/ids")]
 pub fn get_researcher_card_thread_ids(mut conn: Connection) -> Result<Json<Vec<i32>>, Status> {
-    let threads = researcher_card_threads
+    let threads = schema::researcher_card_threads::table
         .load::<ResearcherCardThread>(&mut conn.0)
         .map_err(|_| Status::InternalServerError)?;
     let thread_ids = threads.iter().map(|t| t.id).collect::<Vec<i32>>();
@@ -92,7 +95,7 @@ pub fn get_researcher_card_thread(
         return Err(Status::NotFound);
     }
 
-    let thread = researcher_card_threads
+    let thread = schema::researcher_card_threads::table
         .find(thread_id)
         .first::<ResearcherCardThread>(&mut conn.0)
         .map_err(|_| Status::InternalServerError)?;
@@ -101,29 +104,56 @@ pub fn get_researcher_card_thread(
     Ok(Json(thread_with_replies))
 }
 #[post("/comments/researcher_card", format = "json", data = "<new_reply>")]
-pub fn append_researcher_card_comment(mut conn: Connection, new_reply: Json<NewReply>) -> Status {
+pub async fn append_researcher_card_comment(
+    rds_conn: RdsConn,
+    mut conn: Connection,
+    new_reply: Json<CommInWrapper<NewReply>>,
+) -> Result<Status, Status> {
+    // Get the user hash from the new_reply
+    let user_hash = new_reply.get_user_hash();
+
+    let user_cache_id = get_user_by_token(rds_conn, user_hash).await?;
+    let user_cache_id = user_cache_id.ok_or(Status::Unauthorized)?;
+
+    let user_id_int = user_cache_id.parse::<i32>().map_err(|_| {
+        eprintln!("Failed to parse user_id to i32");
+        Status::InternalServerError
+    })?;
+
+    //check if user id exists
+    if !diesel::dsl::select(diesel::dsl::exists(
+        schema::current_users::table.filter(schema::current_users::id.eq(user_id_int)),
+    ))
+    .get_result::<bool>(&mut conn.0)
+    .unwrap_or(false)
+    {
+        return Err(Status::NotFound);
+    }
+
     // Get the thread from the new_reply
+    let new_reply = new_reply.get_data();
     let thread_id = new_reply.thread_id;
 
     let parent_id = new_reply.parent_id.clone();
 
     // Check if the thread exists
     if diesel::dsl::select(diesel::dsl::exists(
-        researcher_card_threads.filter(id.eq(thread_id)),
+        schema::researcher_card_threads::table
+            .filter(schema::researcher_card_threads::id.eq(thread_id)),
     ))
     .get_result::<bool>(&mut conn.0)
     .unwrap_or(false)
         == false
     {
         eprintln!("Thread with ID {} not found", thread_id);
-        return Status::NotFound;
+        return Err(Status::NotFound);
     }
 
     // Validate parent_id
     // For thread-level replies, parent_id should be None
     // If parent_id is specified, check that it exists in the thread
     if let Some(parent_id) = parent_id {
-        let thread = researcher_card_threads
+        let thread = schema::researcher_card_threads::table
             .find(thread_id)
             .first::<ResearcherCardThread>(&mut conn.0)
             .map_err(|_| {
@@ -142,10 +172,10 @@ pub fn append_researcher_card_comment(mut conn: Connection, new_reply: Json<NewR
                     "Parent reply with ID {} not found in thread {}",
                     parent_id, thread_id
                 );
-                return Status::NotFound;
+                return Err(Status::NotFound);
             }
         } else {
-            return Status::InternalServerError;
+            return Err(Status::InternalServerError);
         }
     }
 
@@ -159,12 +189,15 @@ pub fn append_researcher_card_comment(mut conn: Connection, new_reply: Json<NewR
         parent_id: new_reply.parent_id.clone(),
         content: new_reply.content.clone(),
         time: utils::time::get_current_time(),
+        user_id: user_id_int,
     };
+
+    println!("reply: {:?}", reply);
 
     // Encode the reply as TLV
     let tlv_data = match reply.encode() {
         Ok(tlv_data) => tlv_data,
-        Err(_) => return Status::InternalServerError,
+        Err(_) => return Err(Status::InternalServerError),
     };
 
     // Use a raw SQL query with binary concatenation operator to append data without fetching
@@ -177,10 +210,10 @@ pub fn append_researcher_card_comment(mut conn: Connection, new_reply: Json<NewR
 
     // Execute the query
     match query.execute(&mut conn.0) {
-        Ok(_) => Status::Created,
+        Ok(_) => Ok(Status::Created),
         Err(e) => {
             eprintln!("Error appending comment: {}", e);
-            Status::InternalServerError
+            Err(Status::InternalServerError)
         }
     }
 }

@@ -12,7 +12,7 @@ mod researcher_card;
 mod researcher_card_threads;
 mod schema;
 mod threads;
-mod user_login;
+mod user_mutate;
 mod utils;
 
 #[get("/")]
@@ -51,6 +51,7 @@ async fn rocket() -> _ {
     rocket::build()
         .manage(pg_pool)
         .manage(rds_conn)
+        .manage(utils::random_hashers::RandomHasher::get_random_one())
         .mount("/", routes![index])
         .mount(
             "/api",
@@ -71,9 +72,10 @@ async fn rocket() -> _ {
                 google_scholar::api_functions::google_scholar_endpoint,
                 google_scholar::api_functions::google_scholar_publication_endpoint,
                 google_scholar::api_functions::google_scholar_update_endpoint,
-                user_login::auth::user_registor,
-                user_login::auth::user_verify_email,
-                user_login::login::user_login,
+                user_mutate::auth::user_registor,
+                user_mutate::auth::user_verify_email,
+                user_mutate::login::user_login,
+                user_mutate::api_functions::get_user_reduced,
             ],
         )
         .attach(cors)

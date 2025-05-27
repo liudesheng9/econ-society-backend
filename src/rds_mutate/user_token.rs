@@ -4,18 +4,26 @@ use rocket::http::Status;
 use crate::utils::rds_conn::RdsConn;
 
 /// Store a user token in Redis with an expiration time
-pub async fn store_user_token(mut conn: RdsConn, user_id: &str, token: &str) -> Result<(), Status> {
+pub async fn store_user_token(
+    mut conn: RdsConn,
+    user_id: &str,
+    token: &str,
+    expire_seconds: Option<u64>,
+) -> Result<(), Status> {
+    // Default expiration of 24 hours if not specified
+    let expire = expire_seconds.unwrap_or(86400);
+
     // Store user -> token mapping
     let user_key = format!("user:{}:token", user_id);
     let _: () = conn
-        .set(&user_key, token)
+        .set_ex(&user_key, token, expire)
         .await
         .map_err(|_| Status::InternalServerError)?;
 
     // Store token -> user_id mapping for lookup
     let token_key = format!("token:{}", token);
     let _: () = conn
-        .set(&token_key, user_id)
+        .set_ex(&token_key, user_id, expire)
         .await
         .map_err(|_| Status::InternalServerError)?;
 

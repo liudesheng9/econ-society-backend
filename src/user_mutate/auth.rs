@@ -1,7 +1,7 @@
 use crate::email::mail::send_verification_email;
 use crate::email::models::EmailVerificationRequest;
-use crate::user_login::models::NewCurrentUser;
-use crate::user_login::utils_functions::create_new_user;
+use crate::user_mutate::models::NewCurrentUser;
+use crate::user_mutate::utils_functions::create_new_user;
 use crate::utils::db::Connection;
 use rocket::http::Status;
 use rocket::serde::json::Json;
@@ -16,7 +16,7 @@ lazy_static::lazy_static! {
 
 /// Send verification email to the user
 #[post("/register", data = "<user_data>")]
-pub async fn user_registor(user_data: Json<NewCurrentUser>) -> Result<String, Status> {
+pub async fn user_registor(user_data: Json<NewCurrentUser>) -> Result<Status, Status> {
     let token = Uuid::new_v4().to_string();
     let user_data = user_data.into_inner();
 
@@ -40,7 +40,7 @@ pub async fn user_registor(user_data: Json<NewCurrentUser>) -> Result<String, St
         .unwrap()
         .insert(token.clone(), user_data);
 
-    Ok(token)
+    Ok(Status::Ok)
 }
 
 /// Verify email and create user
